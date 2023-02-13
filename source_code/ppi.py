@@ -201,7 +201,7 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
     
     # Normalising factors
     assert np.sum(np.isnan(betas)) == 0, 'betas should not contain missing values'
-    assert len(alphas) == N, 'betas should have the same size as I0'
+    assert len(betas) == N, 'betas should have the same size as I0'
     
     # Interdependency network
     if A is None:
@@ -218,7 +218,7 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
     else:
         R[R!=1] = 0
         R = R.astype(bool)
-        assert np.sum(R) > 0, 'R needs at least one entry with value 1'
+        assert np.sum(R) > 0, 'PPI needs at least one instrumental indicator, make sure that at least one entry in R is 1'
         assert len(R) == N, 'R should have the same size as I0'
     
     # Number of instrumental indicators
@@ -229,33 +229,33 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
         bs = np.ones(n)
     else:
         assert np.sum(np.isnan(bs)) == 0, 'bs should not contain missing values'
-        assert len(bs) == n, 'bs should have the same size as the number of ones in R'
+        assert len(bs) == n, 'bs should have the same size as the number of instrumental indicators (ones in R)'
         
     # Quality of monitoring
     if qm is None:
         qm = np.ones(n)*.5
     elif type(qm) is np.ndarray:
         assert np.sum(np.isnan(qm)) == 0, 'qm should not contain missing values'
-        assert len(qm) == n, 'qm should have the same size as the number of ones in R'
+        assert len(qm) == n, 'qm should have the same size as the number of instrumental indicators (ones in R)'
         
     # Quality of the rule of law
     if rl is None:
         rl = np.ones(n)*.5
     elif type(rl) is np.ndarray:
         assert np.sum(np.isnan(rl)) == 0, 'rl should not contain missing values'
-        assert len(rl) == n, 'rl should have the same size as the number of ones in R'
+        assert len(rl) == n, 'rl should have the same size as the number of instrumental indicators (ones in R)'
         
     # Theoretical upper bounds
     if Imax is not None:
         assert len(Imax) == N, 'Imax should have the same size as I0'
         if np.sum(~np.isnan(Imax)) > 0:
-            assert np.sum(Imax[~np.isnan(Imax)] < I0[~np.isnan(Imax)]) == 0, 'All entries in Imax should be greater than I0'
+            assert np.sum(Imax[~np.isnan(Imax)] < I0[~np.isnan(Imax)]) == 0, 'All entries in Imax should be greater than their corresopnding value in I0'
 
     # Theoretical lower bounds
     if Imin is not None:
         assert len(Imin) == N, 'Imin should have the same size as I0'
         if np.sum(~np.isnan(Imin)) > 0:
-            assert np.sum(Imin[~np.isnan(Imin)] > I0[~np.isnan(Imin)]) == 0, 'All entries in Imin should be lower than I0'
+            assert np.sum(Imin[~np.isnan(Imin)] > I0[~np.isnan(Imin)]) == 0, 'All entries in Imin should be lower than their corresopnding value in I0'
 
     # Payment schedule
     assert type(Bs) is np.ndarray, 'Bs must be a numpy vector or a matrix'
