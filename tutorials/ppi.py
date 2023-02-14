@@ -338,9 +338,9 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
     It = np.random.rand(N) # lagged indicators
 
     tsI = np.empty((N,T)) # stores time series of indicators
-    tsC = np.empty((N,T)) # stores time series of contributions
-    tsF = np.empty((N,T)) # stores time series of benefits
-    tsP = np.empty((N,T)) # stores time series of allocations
+    tsC = np.empty((n,T)) # stores time series of contributions
+    tsF = np.empty((n,T)) # stores time series of benefits
+    tsP = np.empty((n,T)) # stores time series of allocations
     tsS = np.empty((N,T)) # stores time series of spillovers
     tsG = np.empty((N,T)) # stores time series of gammas
     
@@ -749,34 +749,6 @@ def compute_error(I0, IF, success_rates, alphas, alphas_prime, betas, A=None,
     TF = tsI[0].shape[1]
     
     return errors, TF
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
