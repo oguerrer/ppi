@@ -1,0 +1,17 @@
+sdg,0,1,2,3,4,5,6,7,8,9,10,11,12
+1.0,sdg1_wpc,sdg1_320pov,,,,,,,,,,,
+2.0,sdg2_undernsh,sdg2_stunting,sdg2_wasting,sdg2_obesity,sdg2_trophic,sdg2_crlyld,sdg2_snmi,,,,,,
+3.0,sdg3_matmort,sdg3_neonat,sdg3_u5mort,sdg3_tb,sdg3_hiv,sdg3_ncds,sdg3_traffic,sdg3_lifee,sdg3_fertility,sdg3_births,sdg3_vac,sdg3_uhc,sdg3_swb
+4.0,sdg4_earlyedu,sdg4_primary,sdg4_second,sdg4_literacy,,,,,,,,,
+5.0,sdg5_familypl,sdg5_edat,sdg5_lfpr,sdg5_parl,,,,,,,,,
+6.0,sdg6_water,sdg6_sanita,,,,,,,,,,,
+7.0,sdg7_elecac,sdg7_cleanfuel,sdg7_co2twh,sdg7_ren,,,,,,,,,
+8.0,sdg8_unemp,sdg8_accounts,sdg8_rights,sdg8_impacc,,,,,,,,,
+9.0,sdg9_intuse,sdg9_mobuse,sdg9_lpi,sdg9_articles,sdg9_rdex,,,,,,,,
+11.0,sdg11_slums,sdg11_pm25,sdg11_pipedwat,sdg11_transport,,,,,,,,,
+12.0,sdg12_nprod,sdg12_nimport,sdg12_explastic,,,,,,,,,,
+13.0,sdg13_co2gcp,sdg13_co2import,,,,,,,,,,,
+14.0,sdg14_cpma,sdg14_cleanwat,sdg14_fishstocks,sdg14_trawl,sdg14_discard,,,,,,,,
+15.0,sdg15_cpta,sdg15_cpfa,sdg15_redlist,sdg15_forchg,,,,,,,,,
+16.0,sdg16_homicides,sdg16_detain,sdg16_prs,sdg16_cpi,sdg16_rsf,sdg16_justice,,,,,,,
+17.0,sdg17_govex,sdg17_govrev,sdg17_statperf,,,,,,,,,,
