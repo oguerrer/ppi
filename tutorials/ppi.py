@@ -337,12 +337,12 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
     I = I0.copy() # initial levels of the indicators
     It = np.random.rand(N) # lagged indicators
 
-    tsI = np.empty(N,T) # stores time series of indicators
-    tsC = np.empty(N,T) # stores time series of contributions
-    tsF = np.empty(N,T) # stores time series of benefits
-    tsP = np.empty(N,T) # stores time series of allocations
-    tsS = np.empty(N,T) # stores time series of spillovers
-    tsG = np.empty(N,T) # stores time series of gammas
+    tsI = np.empty((N,T)) # stores time series of indicators
+    tsC = np.empty((N,T)) # stores time series of contributions
+    tsF = np.empty((N,T)) # stores time series of benefits
+    tsP = np.empty((N,T)) # stores time series of allocations
+    tsS = np.empty((N,T)) # stores time series of spillovers
+    tsG = np.empty((N,T)) # stores time series of gammas
     
     
     
