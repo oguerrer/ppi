@@ -235,15 +235,21 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
     if qm is None:
         qm = np.ones(n)*.5
     elif type(qm) is np.ndarray:
-        assert np.sum(np.isnan(qm)) == 0, 'qm should not contain missing values'
-        assert len(qm) == n, 'qm should have the same size as the number of instrumental indicators (ones in R)'
+        if len(qm) == N:
+            qm = qm[R]
+            assert np.sum(np.isnan(qm)) == 0, 'qm should not contain missing values'
+        else:
+            assert len(qm) == n, 'qm should have the same size as the number of instrumental indicators (ones in R)'
         
     # Quality of the rule of law
     if rl is None:
         rl = np.ones(n)*.5
     elif type(rl) is np.ndarray:
-        assert np.sum(np.isnan(rl)) == 0, 'rl should not contain missing values'
-        assert len(rl) == n, 'rl should have the same size as the number of instrumental indicators (ones in R)'
+        if len(rl) == N:
+            rl = rl[R]
+            assert np.sum(np.isnan(rl)) == 0, 'rl should not contain missing values'
+        else:
+            assert len(rl) == n, 'rl should have the same size as the number of instrumental indicators (ones in R)'
         
     # Theoretical upper bounds
     if Imax is not None:
