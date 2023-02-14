@@ -586,6 +586,7 @@ def calibrate(I0, IF, success_rates, A=None, R=None, qm=None, rl=None,  Bs=None,
     success_rates[success_rates>=1] = .95
     assert threshold < 1, 'the threshold must be lower than 1'
     assert len(I0) == len(IF), 'I0 and IF must have the same size'
+    assert np.sum(I0==IF)==0, 'the initial values of the indicators must be different from the final ones'
     
     
     # Initialise hyperparameters and containers
