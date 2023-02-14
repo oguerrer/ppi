@@ -764,31 +764,3 @@ def compute_error(I0, IF, success_rates, alphas, alphas_prime, betas, A=None,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

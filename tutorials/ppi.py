@@ -349,8 +349,8 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
     ## MAIN LOOP
     for t in range(T):
         
-        tsI[:,T] = I # store this period's indicators
-        tsP[:,T] = P # store this period's allocations
+        tsI[:,t] = I # store this period's indicators
+        tsP[:,t] = P # store this period's allocations
 
 
         ### REGISTER INDICATOR CHANGES ###
@@ -375,8 +375,8 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
         signt = sign.copy() # update previous signs
         changeFt = changeF.copy() # update previous changes in benefits
         
-        tsC[:,T] = C # store this period's contributions
-        tsF[:,T] = F # store this period's benefits
+        tsC[:,t] = C # store this period's contributions
+        tsF[:,t] = F # store this period's benefits
                 
         
         ### DETERMINE BENEFITS ###
@@ -400,7 +400,7 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
         deltaM = np.array([deltaBin,]*len(deltaBin)).T # reshape deltaIAbs into a matrix
         S = np.sum(deltaM*A, axis=0) # compute spillovers
         assert np.sum(np.isnan(S)) == 0, 'S has invalid values!'
-        tsS[:,T] = S # store spillovers
+        tsS[:,t] = S # store spillovers
         cnorm = np.zeros(N) # initialise a zero-vector to store the normalised contributions
         cnorm[R] = C # compute contributions only for instrumental nodes
         gammas = ( betas*(cnorm + C.sum()/(P.sum()+1)) )/( 1 + np.exp(-S) ) # compute probability of successful growth
@@ -410,7 +410,7 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
         if frontier is not None: # if the user wants to perform frontier analysis
             gammas = frontier
             
-        tsG[:,T] = gammas # store gammas
+        tsG[:,t] = gammas # store gammas
         success = (np.random.rand(N) < gammas) # determine if there is successful growth
         newI = I.copy() # compute potential new values
         newI[success] = I[success] + alphas[success] # update growing indicators
