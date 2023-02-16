@@ -679,7 +679,7 @@ def calibrate(I0, IF, success_rates, A=None, R=None, bs=None, qm=None, rl=None, 
 ## and computes the error with respect to IF and success_rates. 
 ## Called by the calibrate function.
 def compute_error(I0, IF, success_rates, alphas, alphas_prime, betas, A=None, 
-                  R=None, bs=None, qm=None, rl=None, Bs=None, B_dict=None, T=None, 
+                  R=None, bs=None, qm=None, rl=None, Bs=None, B_dict=None, G=None, T=None, 
                   parallel_processes=None, sample_size=1000):
 
     """Function to evaluate the model and compute the errors.
@@ -733,10 +733,10 @@ def compute_error(I0, IF, success_rates, alphas, alphas_prime, betas, A=None,
     if parallel_processes is None:
         sols = np.array([run_ppi(I0=I0, alphas=alphas, alphas_prime=alphas_prime, 
                           betas=betas, A=A, R=R, bs=bs, qm=qm, rl=rl,
-                          Bs=Bs, B_dict=B_dict, T=T) for itera in range(sample_size)])
+                          Bs=Bs, B_dict=B_dict, G=G, T=T) for itera in range(sample_size)])
     else:
         sols = run_ppi_parallel(I0=I0, alphas=alphas, alphas_prime=alphas_prime, betas=betas, 
-         A=A, R=R, bs=bs, qm=qm, rl=rl, Bs=Bs, B_dict=B_dict, T=T, 
+         A=A, R=R, bs=bs, qm=qm, rl=rl, Bs=Bs, B_dict=B_dict, G=G, T=T,
          parallel_processes=parallel_processes, sample_size=sample_size)
         
     tsI, tsC, tsF, tsP, tsS, tsG = zip(*sols)
