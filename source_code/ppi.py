@@ -485,7 +485,7 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
 
 
 ## Calibrates PPI automatically and return a Pandas DataFrame with the parameters, errors, and goodness of fit
-def calibrate(I0, IF, success_rates, A=None, R=None, qm=None, rl=None,  Bs=None, B_dict=None, 
+def calibrate(I0, IF, success_rates, A=None, R=None, bs=None, qm=None, rl=None,  Bs=None, B_dict=None, 
               T=None, threshold=.8, parallel_processes=None, 
               verbose=False, low_precision_counts=101, increment=1000):
 
@@ -610,7 +610,7 @@ def calibrate(I0, IF, success_rates, A=None, R=None, qm=None, rl=None,  Bs=None,
     
         # compute the errors for the specified parameter vector
         errors_all, TF = compute_error(I0=I0, IF=IF, success_rates=success_rates, alphas=alphas, alphas_prime=alphas_prime, betas=betas, A=A, 
-                                        R=R, qm=qm, rl=rl, Bs=Bs, B_dict=B_dict, 
+                                        R=R, bs=bs, qm=qm, rl=rl, Bs=Bs, B_dict=B_dict, 
                                         T=T, parallel_processes=parallel_processes, 
                                         sample_size=sample_size)
         
@@ -679,7 +679,7 @@ def calibrate(I0, IF, success_rates, A=None, R=None, qm=None, rl=None,  Bs=None,
 ## and computes the error with respect to IF and success_rates. 
 ## Called by the calibrate function.
 def compute_error(I0, IF, success_rates, alphas, alphas_prime, betas, A=None, 
-                  R=None, qm=None, rl=None, Bs=None, B_dict=None, T=None, 
+                  R=None, bs=None, qm=None, rl=None, Bs=None, B_dict=None, T=None, 
                   parallel_processes=None, sample_size=1000):
 
     """Function to evaluate the model and compute the errors.
@@ -730,15 +730,14 @@ def compute_error(I0, IF, success_rates, alphas, alphas_prime, betas, A=None,
     """
     
     
-    
     if parallel_processes is None:
         sols = np.array([run_ppi(I0=I0, alphas=alphas, alphas_prime=alphas_prime, 
-                          betas=betas, A=A, R=R, qm=qm, rl=rl,
+                          betas=betas, A=A, R=R, bs=bs, qm=qm, rl=rl,
                           Bs=Bs, B_dict=B_dict, T=T) for itera in range(sample_size)])
     else:
         sols = np.array(Parallel(n_jobs=parallel_processes, verbose=0)(delayed(run_ppi)\
                 (I0=I0, alphas=alphas, alphas_prime=alphas_prime, betas=betas, 
-                 A=A, R=R, qm=qm, rl=rl, Bs=Bs, B_dict=B_dict, T=T) for itera in range(sample_size)))
+                 A=A, R=R, bs=bs, qm=qm, rl=rl, Bs=Bs, B_dict=B_dict, T=T) for itera in range(sample_size)))
         
     tsI, tsC, tsF, tsP, tsS, tsG = zip(*sols)
     I_hat = np.mean(tsI, axis=0)[:,-1]
@@ -757,6 +756,64 @@ def compute_error(I0, IF, success_rates, alphas, alphas_prime, betas, A=None,
 
 
 
+
+def run_ppi_parallel(I0, IF, success_rates, alphas, alphas_prime, betas, A=None, 
+                  R=None, bs=None, qm=None, rl=None, Bs=None, B_dict=None, T=None, 
+                  parallel_processes=4, sample_size=1000):
+    
+    """Function to evaluate the model and compute the errors.
+
+    Parameters
+    ----------
+        I0: numpy array 
+            See run_ppi function.
+        IF: numpy array 
+            See calibrate function.
+        success_rates: numpy array 
+            See calibrate function.
+        alphas: numpy array
+            See run_ppi function.
+        alphas_prime: numpy array
+            See run_ppi function.
+        betas: numpy array
+            See run_ppi function.
+        A:  2D numpy array (optional)
+            See run_ppi function.
+        R:  numpy array (optional)
+            See run_ppi function.
+        bs: numpy array (optional)
+            See run_ppi function.
+        qm: A floating point, an integer, or a numpy array (optional)
+            See run_ppi function.
+        rl: A floating point, an integer, or a numpy array (optional)
+            See run_ppi function.
+        Bs: numpy ndarray (optional)
+            See run_ppi function.
+        B_dict: dictionary (optional)
+            See run_ppi function.
+        T: int (optional)
+            See run_ppi function.
+        parallel_processes: integer (optional)
+            See calibrate function.
+        sample_size: integer (optional)
+            Number of Monte Carlo simulations to be ran.
+        
+    Returns
+    -------
+        errors: 2D numpy array
+            A matrix with the error of each parameter. The first column contains
+            the errors associated to the final values of the indicators. The second
+            provides the errors related to the empirical probability of growth.
+        TF: integer
+            The number of periods that the model ran in each Monte Carlo simulation.
+    """
+    
+    sols = np.array(Parallel(n_jobs=parallel_processes, verbose=0)(delayed(run_ppi)\
+            (I0=I0, alphas=alphas, alphas_prime=alphas_prime, betas=betas, 
+             A=A, R=R, bs=bs, qm=qm, rl=rl, Bs=Bs, B_dict=B_dict, T=T) for itera in range(sample_size)))
+    tsI, tsC, tsF, tsP, tsS, tsG = zip(*sols)
+    
+    return tsI, tsC, tsF, tsP, tsS, tsG
 
 
 
