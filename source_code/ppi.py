@@ -735,9 +735,9 @@ def compute_error(I0, IF, success_rates, alphas, alphas_prime, betas, A=None,
                           betas=betas, A=A, R=R, bs=bs, qm=qm, rl=rl,
                           Bs=Bs, B_dict=B_dict, T=T) for itera in range(sample_size)])
     else:
-        sols = np.array(Parallel(n_jobs=parallel_processes, verbose=0)(delayed(run_ppi)\
-                (I0=I0, alphas=alphas, alphas_prime=alphas_prime, betas=betas, 
-                 A=A, R=R, bs=bs, qm=qm, rl=rl, Bs=Bs, B_dict=B_dict, T=T) for itera in range(sample_size)))
+        sols = run_ppi_parallel(I0=I0, alphas=alphas, alphas_prime=alphas_prime, betas=betas, 
+         A=A, R=R, bs=bs, qm=qm, rl=rl, Bs=Bs, B_dict=B_dict, T=T, 
+         parallel_processes=parallel_processes, sample_size=sample_size)
         
     tsI, tsC, tsF, tsP, tsS, tsG = zip(*sols)
     I_hat = np.mean(tsI, axis=0)[:,-1]
@@ -761,7 +761,9 @@ def run_ppi_parallel(I0, IF, success_rates, alphas, alphas_prime, betas, A=None,
                   R=None, bs=None, qm=None, rl=None, Bs=None, B_dict=None, T=None, 
                   parallel_processes=4, sample_size=1000):
     
-    """Function to evaluate the model and compute the errors.
+    """Function to run a sample of evaluations in parallel. As opposed to the function
+    run_ppi, which returns the output of a single realisation, this function returns
+    a set of time series (one for each realisation) of each output type.
 
     Parameters
     ----------
@@ -800,20 +802,38 @@ def run_ppi_parallel(I0, IF, success_rates, alphas, alphas_prime, betas, A=None,
         
     Returns
     -------
-        errors: 2D numpy array
-            A matrix with the error of each parameter. The first column contains
-            the errors associated to the final values of the indicators. The second
-            provides the errors related to the empirical probability of growth.
-        TF: integer
-            The number of periods that the model ran in each Monte Carlo simulation.
+        tsI: list
+            A list with multiple matrices, each one containing the time series 
+            of multiple realisations of the simulated indicators. In each matrix, 
+            each row corresponds to an indicator and each column to a simulation step.
+        tsC: list
+            A list with multiple matrices, each one containing the time series 
+            of multiple realisations of the simulated indicators. In each matrix, 
+            each row corresponds to an indicator and each column to a simulation step.
+        tsF: list
+            A list with multiple matrices, each one containing the time series 
+            of multiple realisations of the simulated indicators. In each matrix, 
+            each row corresponds to an indicator and each column to a simulation step.
+        tsP: list
+            A list with multiple matrices, each one containing the time series 
+            of multiple realisations of the simulated indicators. In each matrix, 
+            each row corresponds to an indicator and each column to a simulation step.
+        tsS: list
+            A list with multiple matrices, each one containing the time series 
+            of multiple realisations of the simulated indicators. In each matrix, 
+            each row corresponds to an indicator and each column to a simulation step.
+        tsG: list
+            A list with multiple matrices, each one containing the time series 
+            of multiple realisations of the simulated indicators. In each matrix, 
+            each row corresponds to an indicator and each column to a simulation step.
     """
     
     sols = np.array(Parallel(n_jobs=parallel_processes, verbose=0)(delayed(run_ppi)\
             (I0=I0, alphas=alphas, alphas_prime=alphas_prime, betas=betas, 
              A=A, R=R, bs=bs, qm=qm, rl=rl, Bs=Bs, B_dict=B_dict, T=T) for itera in range(sample_size)))
-    tsI, tsC, tsF, tsP, tsS, tsG = zip(*sols)
+    tsI_sample, tsC_sample, tsF_sample, tsP_sample, tsS_sample, tsG_sample = zip(*sols)
     
-    return tsI, tsC, tsF, tsP, tsS, tsG
+    return tsI_sample, tsC_sample, tsF_sample, tsP_sample, tsS_sample, tsG_sample
 
 
 
