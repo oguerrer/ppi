@@ -734,12 +734,12 @@ def compute_error(I0, IF, success_rates, alphas, alphas_prime, betas, A=None,
         sols = np.array([run_ppi(I0=I0, alphas=alphas, alphas_prime=alphas_prime, 
                           betas=betas, A=A, R=R, bs=bs, qm=qm, rl=rl,
                           Bs=Bs, B_dict=B_dict, G=G, T=T) for itera in range(sample_size)])
+        tsI, tsC, tsF, tsP, tsS, tsG = zip(*sols)
     else:
-        sols = run_ppi_parallel(I0=I0, alphas=alphas, alphas_prime=alphas_prime, betas=betas, 
+        tsI, tsC, tsF, tsP, tsS, tsG = run_ppi_parallel(I0=I0, alphas=alphas, alphas_prime=alphas_prime, betas=betas, 
          A=A, R=R, bs=bs, qm=qm, rl=rl, Bs=Bs, B_dict=B_dict, G=G, T=T,
          parallel_processes=parallel_processes, sample_size=sample_size)
         
-    tsI, tsC, tsF, tsP, tsS, tsG = zip(*sols)
     I_hat = np.mean(tsI, axis=0)[:,-1]
     gamma_hat = np.mean(tsG, axis=0).mean(axis=1)
     error_alpha = IF - I_hat
