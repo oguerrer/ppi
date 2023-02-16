@@ -757,9 +757,9 @@ def compute_error(I0, IF, success_rates, alphas, alphas_prime, betas, A=None,
 
 
 
-def run_ppi_parallel(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, rl=None,
-                     Imax=None, Imin=None, Bs=None, B_dict=None, G=None, T=None, frontier=None 
-                     parallel_processes=4, sample_size=1000):
+def run_ppi_parallel(I0, IF, success_rates, alphas, alphas_prime, betas, A=None, 
+                  R=None, bs=None, qm=None, rl=None, Bs=None, B_dict=None, T=None, 
+                  parallel_processes=4, sample_size=1000):
     
     """Function to run a sample of evaluations in parallel. As opposed to the function
     run_ppi, which returns the output of a single realisation, this function returns
@@ -793,11 +793,7 @@ def run_ppi_parallel(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, q
             See run_ppi function.
         B_dict: dictionary (optional)
             See run_ppi function.
-        G: dictionary (optional)
-            See run_ppi function.
         T: int (optional)
-            See run_ppi function.
-        frontier: boolean
             See run_ppi function.
         parallel_processes: integer (optional)
             See calibrate function.
