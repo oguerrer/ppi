@@ -1,8 +1,6 @@
-"""Policy Priority Inference (PPI)
+"""Policy Priority Inference (PPI) source code
 
-Complexity Economics and Sustainable Development: A Computational Framework for Policy Priority Inference
-
-Authors: Omar A. Guerrero & Gonzalo Castañeda
+Author: Omar A. Guerrero
 Written in Python 3.7
 
 
