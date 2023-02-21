@@ -1,6 +1,6 @@
 # <center> Policy Priority Inference </center>
 
-This is the official repository of the Policy Priority Inference (PPI) research programme, created by <a href="http://oguerr.com/">Dr. Omar A. Guerrero</a>{:target="_blank"}  and <a href="https://www.social-complexity.com">Prof. Gonzalo Castañeda</a>{:target="_blank"}.
+This is the official repository of the Policy Priority Inference (PPI) research programme, created by [Dr. Omar A. Guerrero](http://oguerr.com){:target="_blank"} and [Prof. Gonzalo Castañeda](https://www.social-complexity.com){:target="_blank"}.
 Here you will find the source code of the latest version of the agent-computing model underlying PPI, as well as tutorials to get started.
 These tutorials assume that you have a basic knowledge of Python, and that you are familiar with the libraries Numpy and Pandas.
 
