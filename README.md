@@ -16,3 +16,5 @@ It can also be consulted in the working paper:
 * Guerrero O., Guariso D., and Castañeda G. (2022) *Aid Effectiveness in Sustainable Development: A Multidimensional Approach.* SSRN Working Paper (http://dx.doi.org/10.2139/ssrn.4101378).
 
 
+Previous versions of PPI can be consulted in the project's publications at https://oguerr.com/ppi.
+
