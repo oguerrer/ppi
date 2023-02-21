@@ -13,5 +13,6 @@ Then, open the Jupyter notebooks and you are good to go.
 ## Cloud run (Google Colab)
 
 Open a cloud computer and open the tutorial of interest by providing the link to the GitHub repository.
-After the Jupyter notebook is open, you need to upload the `clean_data` folder to your cloud computer.
-Once the folder and its files have been copied, you are good to go.
+You should be able to run every tutorial up to the point in which the data files are saved.
+To avoid getting an error at this point, you need to create an empty folder named `clean_data` in the session that is running the tutorial.
+Alternatively, you can just comment the line that saves the file, as all the necessary data are always downloaded from this repository.
