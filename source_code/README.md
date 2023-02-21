@@ -3,27 +3,9 @@
 The `ppi.py` file contains all the code of PPI's agent-copmuting model, as well as helper functions to paralelise the Monte Carlo simulations, and the calibration algorithm.
 
 
-Help on module ppi:
+FUNCTIONS:
 
-NAME
-    ppi - Policy Priority Inference (PPI) source code
 
-DESCRIPTION
-    Author: Omar A. Guerrero
-    Written in Python 3.7
-    
-    
-    Example
-    -------
-    
-    
-    
-    Dependencies
-    --------------------------
-    - Numpy
-    - Joblib (optional, for parallel computing)
-
-FUNCTIONS
     calibrate(I0, IF, success_rates, A=None, R=None, bs=None, qm=None, rl=None, Bs=None, B_dict=None, T=None, threshold=0.8, parallel_processes=None, verbose=False, low_precision_counts=101, increment=1000)
         Function to calibrate the model parameters.
         
@@ -387,26 +369,4 @@ FUNCTIONS
                 of multiple realisations of the simulated indicators. In each matrix, 
                 each row corresponds to an indicator and each column to a simulation step.
 
-FILE
-    /Users/tequilamambo/Documents/GitHub/ppi/source_code/ppi.py
-
-
-Attribute references
-********************
-
-An attribute reference is a primary followed by a period and a name:
-
-   attributeref ::= primary "." identifier
-
-The primary must evaluate to an object of a type that supports
-attribute references, which most objects do.  This object is then
-asked to produce the attribute whose name is the identifier.  This
-production can be customized by overriding the "__getattr__()" method.
-If this attribute is not available, the exception "AttributeError" is
-raised.  Otherwise, the type and value of the object produced is
-determined by the object.  Multiple evaluations of the same attribute
-reference may yield different objects.
-
-Related help topics: getattr, hasattr, setattr, ATTRIBUTEMETHODS, FLOAT,
-MODULES, OBJECTS
 
