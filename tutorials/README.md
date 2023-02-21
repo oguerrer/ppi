@@ -1,6 +1,6 @@
 # PPI Tutorials
 
-These tutorials assume that you have a basic knowledge of Python, and that you are familiar with the libraries Numpy and Pandas.
+These tutorials assume that you have a basic knowledge of Python, and that you are familiar with the libraries Numpy and Pandas and their data structures (arrays and DataFrames).
 They are numbered in progressive order to take you from the data pre-processing steps, all the way to calibrating the model parameters and performing simulation experiments to detect structural bottlenecks.
 More tutorials will be added on demand.
 There are two main ways to run them.
