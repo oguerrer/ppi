@@ -7,7 +7,7 @@ Here you will find the source code of the latest version of the agent-computing 
 
 This version of the model will appear in the forthcoming book:
 
-* Guerrero O. and Castañeda G. (2022) *Complexity Economics and Sustainable Development: A Computational Framework for Policy Priority Inference.* Cambridge University Press (forthcoming).
+* Guerrero O. and Castañeda G. (2023) *Complexity Economics and Sustainable Development: A Computational Framework for Policy Priority Inference.* Cambridge University Press (forthcoming).
 
 It can also be consulted in the working paper:
 
