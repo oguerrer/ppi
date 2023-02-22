@@ -793,7 +793,7 @@ def run_ppi_parallel(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, q
             See run_ppi function.
         B_dict: dictionary (optional)
             See run_ppi function.
-        G: dictionary (optional)
+        G: numpy array (optional)
             See run_ppi function.
         T: int (optional)
             See run_ppi function.

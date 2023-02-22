@@ -331,7 +331,7 @@ FUNCTIONS:
                 See run_ppi function.
             B_dict: dictionary (optional)
                 See run_ppi function.
-            G: dictionary (optional)
+            G: numpy array (optional)
                 See run_ppi function.
             T: int (optional)
                 See run_ppi function.
@@ -368,5 +368,4 @@ FUNCTIONS:
                 A list with multiple matrices, each one containing the time series 
                 of multiple realisations of the simulated indicators. In each matrix, 
                 each row corresponds to an indicator and each column to a simulation step.
-
 
