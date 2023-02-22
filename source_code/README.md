@@ -1,6 +1,6 @@
 # PPI Source Code
 
-The `ppi.py` file contains all the code of PPI's agent-computing model, as well as helper functions to parallelise the Monte Carlo simulations, and the calibration algorithm.
+The `policy_priority_inference.py` file contains all the code of PPI's agent-computing model, as well as helper functions to parallelise the Monte Carlo simulations, and the calibration algorithm.
 
 
 FUNCTIONS:
