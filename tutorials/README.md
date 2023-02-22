@@ -3,13 +3,23 @@
 These tutorials assume that you have a basic knowledge of Python, and that you are familiar with the libraries Numpy and Pandas and their data structures (arrays and DataFrames).
 They are numbered in progressive order to take you from the data pre-processing steps, all the way to calibrating the model parameters and performing simulation experiments to detect structural bottlenecks.
 More tutorials will be added on demand.
-There are two main ways to run them.
+There are three ways to setup PPI.
 
-## Local run
+## Direct download
 
 1. Download the `tutorials` folder in your local machine.
 2. Open the Jupyter notebooks.
 3. Enjoy PPI.
+
+
+## Installing via PyPI
+
+1. Download the `tutorials` folder in your local machine.
+2. In the command line, type `pip install policy_priority_inference`.
+3. Open the Jupyter notebooks.
+4. Remove the tutorials' section where a request is made to download PPI (this section exists only in tutorials 2 and up), and leave the command `import policy_priority_inference as ppi`.
+5. Enjoy PPI.
+
 
 ## Cloud run (Google Colab)
 
