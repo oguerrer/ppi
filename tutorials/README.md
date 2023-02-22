@@ -21,7 +21,7 @@ There are three ways to setup PPI.
 5. Enjoy PPI.
 
 
-## Cloud run (Google Colab)
+## Cloud computing (Google Colab)
 
 1. Create a cloud-computing session.
 2. Open the tutorial of interest by providing the link to the relevant notebook in this repository.
