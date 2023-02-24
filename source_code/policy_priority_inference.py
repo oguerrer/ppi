@@ -832,9 +832,9 @@ def run_ppi_parallel(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, q
             each row corresponds to an indicator and each column to a simulation step.
     """
     
-    sols = np.array(Parallel(n_jobs=parallel_processes, verbose=0)(delayed(run_ppi)\
+    sols = Parallel(n_jobs=parallel_processes, verbose=0)(delayed(run_ppi)\
             (I0=I0, alphas=alphas, alphas_prime=alphas_prime, betas=betas, 
-             A=A, R=R, bs=bs, qm=qm, rl=rl, Bs=Bs, B_dict=B_dict, T=T, frontier=frontier) for itera in range(sample_size)))
+             A=A, R=R, bs=bs, qm=qm, rl=rl, Bs=Bs, B_dict=B_dict, T=T, frontier=frontier) for itera in range(sample_size))
     tsI_sample, tsC_sample, tsF_sample, tsP_sample, tsS_sample, tsG_sample = zip(*sols)
     
     return tsI_sample, tsC_sample, tsF_sample, tsP_sample, tsS_sample, tsG_sample
