@@ -1,3 +1,5 @@
+![logo.pdf]
+
 # <center> Policy Priority Inference </center>
 
 This is the official repository of the Policy Priority Inference (PPI) research programme, created by [Dr. Omar A. Guerrero](http://oguerr.com) and [Prof. Gonzalo Castañeda](https://www.social-complexity.com).
