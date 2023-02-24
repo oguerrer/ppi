@@ -1,4 +1,4 @@
-![logo](./logo.pdf)
+<img src="./logo.pdf" width="100"/>
 
 # <center> Policy Priority Inference </center>
 
