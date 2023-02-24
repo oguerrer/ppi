@@ -1,0 +1,6 @@
+ipykernel
+pandas
+numpy
+matplotlib
+joblib
+policy_priority_inference
