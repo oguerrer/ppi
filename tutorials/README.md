@@ -7,7 +7,7 @@ There are four ways to setup PPI.
 
 ## Direct download
 
-1. Use Git to clone this repository to your local machine.
+1. Download the `tutorials` folder in your local machine.
 2. Open the Jupyter notebooks.
 3. Enjoy PPI.
 
