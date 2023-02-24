@@ -1,4 +1,4 @@
-![logo.pdf]
+![logo](./logo.pdf)
 
 # <center> Policy Priority Inference </center>
 
