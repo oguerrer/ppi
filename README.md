@@ -1,4 +1,4 @@
-<img src="./logo.png" width="400"/>
+<img src="./logo.png" width="300"/>
 
 # <center> Policy Priority Inference </center>
 
