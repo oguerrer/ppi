@@ -105,7 +105,7 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
             contains a missing value (NaN), then there is no lower bound defined
             for that indicator and it will decrease indefinitely. If not provided,
             no indicator will have lower bound.
-        Bs: numpy ndarray
+        Bs: numpy ndarray (optional)
             Disbursement schedule across expenditure programs. There are three 
             options to specify Bs:
                 - A matrix: this is a disaggregated specification of the 
@@ -260,7 +260,8 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
         assert len(Imin) == N, 'Imin should have the same size as I0'
         if np.sum(~np.isnan(Imin)) > 0:
             assert np.sum(Imin[~np.isnan(Imin)] > I0[~np.isnan(Imin)]) == 0, 'All entries in Imin should be lower than their corresopnding value in I0'
-
+    
+    # Simulation periods
     if T is None:
         T = 50
 
@@ -270,12 +271,12 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
         B_dict = dict([(i,[0]) for i in range(N) if R[i]])
     else:
         assert type(Bs) is np.ndarray, 'Bs must be a numpy vector or a matrix'
-    if type(Bs) is np.ndarray and len(Bs.shape) == 1:
-        Bs = np.array([Bs])
-        B_dict = dict([(i,[0]) for i in range(N) if R[i]])
-        T = Bs.shape[1]
-    else:
-        T = Bs.shape[1]
+        if len(Bs.shape) == 1:
+            Bs = np.array([Bs])
+            B_dict = dict([(i,[0]) for i in range(N) if R[i]])
+            T = Bs.shape[1]
+        else:
+            T = Bs.shape[1]
     
     assert np.sum(np.isnan(Bs)) == 0, 'Bs should not contain missing values'
     
