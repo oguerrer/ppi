@@ -2,3 +2,4 @@
 logo.pdf
 logo.png
 /tutorials/testenv/
+*/__pycache__/
