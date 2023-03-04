@@ -222,7 +222,7 @@ FUNCTIONS:
                 contains a missing value (NaN), then there is no lower bound defined
                 for that indicator and it will decrease indefinitely. If not provided,
                 no indicator will have lower bound.
-            Bs: numpy ndarray
+            Bs: numpy ndarray (optional)
                 Disbursement schedule across expenditure programs. There are three 
                 options to specify Bs:
                     - A matrix: this is a disaggregated specification of the 
