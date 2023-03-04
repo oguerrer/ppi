@@ -279,9 +279,10 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
     assert np.sum(np.isnan(Bs)) == 0, 'Bs should not contain missing values'    
 
     # Dictionary linking indicators to expenditure programs
-    if type(B_dict) is None:
+    if B_dict == None:
         B_dict = dict([(i,[0]) for i in range(N) if R[i]])
     else:
+        assert type(B_dict) is dict, 'B_dict must be a dictionary'
         assert len(B_dict) == n, 'The number of keys in B_dict should be the same as the number of ones in R'
         assert np.sum(np.in1d(np.array(list(B_dict.keys())), np.arange(N))) == n, 'The keys in B_dict must match the indices of the entries in R that contain ones'
         assert sum([type(val) is list for val in B_dict.values()]) == n, 'Every value in B_dict dictionary must be a list'
