@@ -261,14 +261,16 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
         if np.sum(~np.isnan(Imin)) > 0:
             assert np.sum(Imin[~np.isnan(Imin)] > I0[~np.isnan(Imin)]) == 0, 'All entries in Imin should be lower than their corresopnding value in I0'
 
-    # Payment schedule
-    assert type(Bs) is np.ndarray, 'Bs must be a numpy vector or a matrix'
     if T is None:
         T = 50
+
+    # Payment schedule
     if Bs is None:
         Bs = np.array([np.ones(T)*100])
         B_dict = dict([(i,[0]) for i in range(N) if R[i]])
-    elif type(Bs) is np.ndarray and len(Bs.shape) == 1:
+    else:
+        assert type(Bs) is np.ndarray, 'Bs must be a numpy vector or a matrix'
+    if type(Bs) is np.ndarray and len(Bs.shape) == 1:
         Bs = np.array([Bs])
         B_dict = dict([(i,[0]) for i in range(N) if R[i]])
         T = Bs.shape[1]
