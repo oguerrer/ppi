@@ -262,7 +262,6 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
             assert np.sum(Imin[~np.isnan(Imin)] > I0[~np.isnan(Imin)]) == 0, 'All entries in Imin should be lower than their corresopnding value in I0'
 
     # Payment schedule
-    assert type(Bs) is np.ndarray, 'Bs must be a numpy vector or a matrix'
     if T is None:
         T = 50
     if Bs is None:
@@ -275,6 +274,7 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
     else:
         T = Bs.shape[1]
     
+    assert type(Bs) is np.ndarray, 'Bs must be a numpy vector or a matrix'
     assert np.sum(np.isnan(Bs)) == 0, 'Bs should not contain missing values'
     
     # Dictionary linking indicators to expenditure programs
