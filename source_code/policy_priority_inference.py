@@ -268,25 +268,25 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
     # Payment schedule
     if Bs is None:
         Bs = np.array([np.ones(T)*100])
-        B_dict = dict([(i,[0]) for i in range(N) if R[i]])
     else:
         assert type(Bs) is np.ndarray, 'Bs must be a numpy vector or a matrix'
         if len(Bs.shape) == 1:
             Bs = np.array([Bs])
-            B_dict = dict([(i,[0]) for i in range(N) if R[i]])
             T = Bs.shape[1]
         else:
             T = Bs.shape[1]
     
-    assert np.sum(np.isnan(Bs)) == 0, 'Bs should not contain missing values'
-    
+    assert np.sum(np.isnan(Bs)) == 0, 'Bs should not contain missing values'    
+
     # Dictionary linking indicators to expenditure programs
-    assert B_dict is not None, 'If you provide Bs, you must provide B_dict as well'
-    assert len(B_dict) == n, 'The number of keys in B_dict should be the same as the number of ones in R'
-    assert np.sum(np.in1d(np.array(list(B_dict.keys())), np.arange(N))) == n, 'The keys in B_dict must match the indices of the entries in R that contain ones'
-    assert sum([type(val) is list for val in B_dict.values()]) == n, 'Every value in B_dict dictionary must be a list'
-    assert sum([True for i in range(N) if R[i] and i not in B_dict]) == 0, 'Every key in B_dict must be mapped into a non-empty list'
-    assert sum([True for i in B_dict.keys() if not R[i]]) == 0, 'The keys in B_dict must match the indices of the entries in R that contain ones'
+    if type(B_dict) is None:
+        B_dict = dict([(i,[0]) for i in range(N) if R[i]])
+    else:
+        assert len(B_dict) == n, 'The number of keys in B_dict should be the same as the number of ones in R'
+        assert np.sum(np.in1d(np.array(list(B_dict.keys())), np.arange(N))) == n, 'The keys in B_dict must match the indices of the entries in R that contain ones'
+        assert sum([type(val) is list for val in B_dict.values()]) == n, 'Every value in B_dict dictionary must be a list'
+        assert sum([True for i in range(N) if R[i] and i not in B_dict]) == 0, 'Every key in B_dict must be mapped into a non-empty list'
+        assert sum([True for i in B_dict.keys() if not R[i]]) == 0, 'The keys in B_dict must match the indices of the entries in R that contain ones'
     
     # Create reverse dictionary linking expenditure programs to indicators
     programs = sorted(np.unique([item for sublist in B_dict.values() for item in sublist]).tolist())
