@@ -280,7 +280,7 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
 
     # Dictionary linking indicators to expenditure programs
     if B_dict == None:
-        B_dict = dict([(i,[0]) for i in range(N) if R[i]])
+        B_dict = dict([(i,list(range(Bs.shape[0]))) for i in range(N) if R[i]])
     else:
         assert type(B_dict) is dict, 'B_dict must be a dictionary'
         assert len(B_dict) == n, 'The number of keys in B_dict should be the same as the number of ones in R'
@@ -291,7 +291,7 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
     
     # Create reverse dictionary linking expenditure programs to indicators
     programs = sorted(np.unique([item for sublist in B_dict.values() for item in sublist]).tolist())
-    assert Bs.shape[0] == len(programs), 'The number of unique expenditure programs in B_dict do not match the number of rows in Bs'
+    assert Bs.shape[0] == len(programs), 'The number of unique expenditure programs in B_dict does not match the number of rows in Bs'
     program2indis = dict([(program, []) for program in programs])
     sorted_programs = sorted(program2indis.keys())
     for indi, programs in B_dict.items():
