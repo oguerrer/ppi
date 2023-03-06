@@ -3,5 +3,5 @@ logo.pdf
 logo.png
 /tutorials/testenv/
 /tutorials/policy_priority_inference.py
-/tutorials/.ipynb_checkpoints
-/tutorials/__pycache__
+/tutorials/.ipynb_checkpoints/
+/tutorials/__pycache__/
