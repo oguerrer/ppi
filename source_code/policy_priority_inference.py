@@ -253,13 +253,13 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
     if Imax is not None:
         assert len(Imax) == N, 'Imax should have the same size as I0'
         if np.sum(~np.isnan(Imax)) > 0:
-            assert np.sum(Imax[~np.isnan(Imax)] < I0[~np.isnan(Imax)]) == 0, 'All entries in Imax should be greater than their corresopnding value in I0'
+            assert np.sum(Imax[~np.isnan(Imax)] < I0[~np.isnan(Imax)]) == 0, 'All entries in Imax should be greater than their corresponding value in I0'
 
     # Theoretical lower bounds
     if Imin is not None:
         assert len(Imin) == N, 'Imin should have the same size as I0'
         if np.sum(~np.isnan(Imin)) > 0:
-            assert np.sum(Imin[~np.isnan(Imin)] > I0[~np.isnan(Imin)]) == 0, 'All entries in Imin should be lower than their corresopnding value in I0'
+            assert np.sum(Imin[~np.isnan(Imin)] > I0[~np.isnan(Imin)]) == 0, 'All entries in Imin should be lower than their corresponding value in I0'
     
     # Simulation periods
     if T is None:
