@@ -1,9 +1,13 @@
 # PPI Tutorials
 
-These tutorials assume that you have a basic knowledge of Python, and that you are familiar with the libraries Numpy and Pandas and their data structures (arrays and DataFrames).
-They are numbered in progressive order to take you from the data pre-processing steps, all the way to calibrating the model parameters and performing simulation experiments to detect structural bottlenecks.
-More tutorials will be added on demand.
-There are three ways to setup PPI.
+These tutorials assume that you have basic knowledge of Python, and that you are familiar with the libraries Numpy and Pandas, as well as their data structures (arrays and DataFrames).
+The tutorials are numbered in progressive order to take you from the data pre-processing steps, all the way to calibrating the model parameters to running various types of prospective analyses.
+
+If you are not familiar with programming, we have created a simplified version of the model in JavaScript, which can be accessed through [PPI's homepage](http://policypriority.org).
+This app provides a graphical interface and data templates to perform quick preliminary analysis.
+Due to the compromise needed to achieve a high degree of user friendliness, the online app offers less precision and flexibility than the Python library, so it would not be thought of as a replacement for these tutorials, but as a dissemination tool.
+
+Coming back to the Python PPI library, there are three ways to setup PPI.
 
 ## Direct download
 
