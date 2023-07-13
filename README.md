@@ -16,5 +16,5 @@ It can also be consulted in the working paper:
 * Guerrero O., Guariso D., and Castañeda G. (2023) *Aid effectiveness in sustainable development: A multidimensional approach.* World Development (https://doi.org/10.1016/j.worlddev.2023.106256).
 
 
-Previous further information on PPI and support materials visit its homepage: http://policypriority.org.
+Previous further information on PPI and support materials visit its <a href="http://policypriority.org" target="_blank">homepage</a> .
 
