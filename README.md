@@ -13,8 +13,8 @@ This version of the model will appear in the forthcoming book:
 
 It can also be consulted in the working paper:
 
-* Guerrero O., Guariso D., and Castañeda G. (2022) *Aid Effectiveness in Sustainable Development: A Multidimensional Approach.* SSRN Working Paper (http://dx.doi.org/10.2139/ssrn.4101378).
+* Guerrero O., Guariso D., and Castañeda G. (2023) *Aid effectiveness in sustainable development: A multidimensional approach.* World Development (https://doi.org/10.1016/j.worlddev.2023.106256).
 
 
-Previous versions of PPI can be consulted in the project's publications at http://oguerr.com/ppi.
+Previous further information on PPI and support materials visit its homepage: http://policypriority.org.
 
