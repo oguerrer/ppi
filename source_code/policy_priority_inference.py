@@ -421,13 +421,13 @@ def run_ppi(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, r
         # if theoretical maximums are provided, make sure the indicators do not surpass them
         if Imax is not None:
             with_bound = ~np.isnan(Imax)
-            newI[with_bound & (newI[with_bound] > Imax[with_bound])] = Imax[with_bound & (newI[with_bound] > Imax[with_bound])]
+            newI[with_bound & (newI > Imax)] = Imax[with_bound & (newI > Imax)]
             assert np.sum(newI[with_bound] > Imax[with_bound])==0, 'some indicators have surpassed their theoretical upper bound!'
         
         # if theoretical minimums are provided, make sure the indicators do not become lower than them
         if Imin is not None:
             with_bound = ~np.isnan(Imin)
-            newI[with_bound & (newI[with_bound] < Imin[with_bound])] = Imin[with_bound & (newI[with_bound] < Imin[with_bound])]
+            newI[with_bound & (newI < Imin)] = Imin[with_bound & (newI < Imin)]
             assert np.sum(newI[with_bound] < Imin[with_bound])==0, 'some indicators have surpassed their theoretical lower bound!'
                         
         # if governance parameters are endogenous, make sure they are not larger than 1
