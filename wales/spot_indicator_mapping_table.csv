@@ -1,0 +1,631 @@
+category,id,name,type
+Central,2212,Spend: Total Central services,Spend
+Central,2682,"Annual employment rate, aged 16-64",Outcome
+Central,2683,"Annual unemployment rate, aged 16-64",Outcome
+Central,2684,Economically inactive - aged 16-64,Outcome
+Child Health,2019,Spend: Children 5-19 public health programmes,Spend
+Child Health,92315,Percentage of looked after children whose emotional wellbeing is a cause for concern,Outcome
+Child Health,90801,Child mortality rate (1-17 years),Outcome
+Child Health,90803,Children in care,Outcome
+Child Health,811,Children in care immunisations,Outcome
+Child Health,90820,"Children with one or more decayed,  missing or filled teeth",Outcome
+Child Health,90819,Family homelessness,Outcome
+Child Health,90813,Hospital admissions as a result of self-harm (10-24 years),Outcome
+Child Health,90810,Hospital admissions for asthma (under 19 years),Outcome
+Child Health,90812,Hospital admissions for mental health conditions,Outcome
+Child Health,90808,Hospital admissions due to substance misuse (15-24 years),Outcome
+Child Health,90809,A&E attendances (0-4 years),Outcome
+Child Health,90510,Neonatal mortality and stillbirth rate,Outcome
+Child Health,90811,Teenage mothers,Outcome
+Child Health,90630,Children in low income families (all dependent children under 20),Outcome
+Child Health,10101,Children in low income families (under 16s),Outcome
+Child Health,90631,School readiness: percentage of children achieving a good level of development at the end of Reception,Outcome
+Child Health,90632,School Readiness: percentage of children with free school meal status achieving a good level of development at the end of Reception,Outcome
+Child Health,90633,School readiness: percentage of children achieving the expected level in the phonics screening check in Year 1,Outcome
+Child Health,90634,School readiness: percentage of children with free school meal status achieving the expected level in the phonics screening check in Year 1,Outcome
+Child Health,10301,Pupil absence,Outcome
+Child Health,93203,"16 to 17 year olds not in education, employment or training (NEET) or whose activity is not known",Outcome
+Child Health,20101,Low birth weight of term babies,Outcome
+Child Health,20401,"Under 18s conception rate / 1,000",Outcome
+Child Health,90639,"Under 16s conception rate / 1,000",Outcome
+Child Health,90284,Hospital admissions caused by unintentional and deliberate injuries in children (aged 0 to 14 years),Outcome
+Child Health,90285,Hospital admissions caused by unintentional and deliberate injuries in young people (aged 15 to 24 years),Outcome
+Child Health,92196,Infant mortality rate,Outcome
+Child Health,92441,Proportion of five year old children free from dental decay,Outcome
+Child Health,90804,Children killed and seriously injured (KSI) on England's roads,Outcome
+Cultural,2195,Spend: Total Cultural and related services,Spend
+Cultural,93014,Percentage of physically active adults,Outcome
+Drugs and Alcohol,2012,Spend: Substance misuse - Drug misuse - adults,Spend
+Drugs and Alcohol,2013,Spend: Substance misuse - Alcohol misuse - adults,Spend
+Drugs and Alcohol,2014,Spend: Substance misuse - Preventing and reducing harm from drug misuse in adults,Spend
+Drugs and Alcohol,2015,Spend: Substance misuse - Preventing and reducing harm from alcohol misuse in adults,Spend
+Drugs and Alcohol,2016,Spend: Substance misuse - (drugs and alcohol) - youth services,Spend
+Drugs and Alcohol,92447,Successful completion of alcohol treatment,Outcome
+Drugs and Alcohol,93764,"Admission episodes for alcohol-related conditions (Narrow): New method.  This indicator uses a new set of attributable fractions, and so differ from that originally published.",Outcome
+Education,2026,Spend: Total Education services,Spend
+Education,2041,Spend: DFE s251 RO Net Expenditure,Spend
+Education,2522,5 or more A*-C grades at GCSE (inc english and maths),Outcome
+Education,2531,"Level 4+ in reading, writing and maths at key stage 2",Outcome
+Education,2533,Narrowing the gap - lowest 20% early years foundation stage,Outcome
+Education,2534,"Proportion attaining Level 2 in English and Maths by age 19, who had not achieved this level by age 16.",Outcome
+Education,2536,"Overall absence in primary, secondary and special schools",Outcome
+Education,2539,Progression by 2 levels in maths between KS1 and KS2,Outcome
+Education,2540,Progression by 2 levels in reading between KS1 and KS2,Outcome
+Education,2541,Progression by 2 levels in writing between KS1 and KS2,Outcome
+Education,2542,Rate of permanent exclusions from school,Outcome
+Education,2544,Secondary school pupils missing 22 or more sessions Autumn Term,Outcome
+Education,2549,"Education, health and care (EHC) plans within 20 weeks (including exceptional)",Outcome
+Education,2550,"Education, health and care (EHC) plans within 20 weeks (excluding exceptional)",Outcome
+Education,2551,Young people who have attained a full level 3 qualification by age 19,Outcome
+Education,2570,Looked after children with SDQ score of concern,Outcome
+Education,92672,"Key stage 2 pupils meeting the expected standard in reading, writing and maths",Outcome
+Env & Reg,2122,Spend: Total Environmental and regulatory services,Spend
+Env & Reg,2631,"Household waste sent for reuse, recycling and composting",Outcome
+Env & Reg,2639,Municipal waste landfilled,Outcome
+Env & Reg,2640,Residual household waste per household,Outcome
+Env & Reg,2643,Waste collected per head,Outcome
+Env & Reg,10401,First time entrants to the youth justice system,Outcome
+Health Improvement,2006,Spend: National child measurement programme,Spend
+Health Improvement,2008,Spend: Obesity - adults,Spend
+Health Improvement,2009,Spend: Obesity - children,Spend
+Health Improvement,2010,Spend: Physical activity - adults,Spend
+Health Improvement,2011,Spend: Physical activity - children,Spend
+Health Improvement,93014,Percentage of physically active adults,Outcome
+Health Improvement,93077,Proportion of the population meeting the recommended '5-a-day' on a 'usual day' (adults),Outcome
+Health Improvement,93078,Average number of portions of fruit consumed daily (adults),Outcome
+Health Improvement,93079,Average number of portions of vegetables consumed daily (adults),Outcome
+Health Improvement,91496,Percentage who eat 5 portions or more of fruit and veg per day at age 15,Outcome
+Health Improvement,93088,Percentage of adults (aged 18+) classified as overweight or obese,Outcome
+Health Improvement,93015,Percentage of physically inactive adults,Outcome
+Health Improvement,91099,Cumulative percentage of the eligible population aged 40-74 offered an NHS Health Check,Outcome
+Health Improvement,91100,Cumulative percentage of the eligible population aged 40-74 offered an NHS Health Check who received an NHS Health Check,Outcome
+Health Improvement,91101,Cumulative percentage of the eligible population aged 40-74 who received an NHS Health check,Outcome
+Health Improvement,22401,Emergency hospital admissions due to falls in people aged 65 and over,Outcome
+Health Improvement,22402,Emergency hospital admissions due to falls in people aged 65-79,Outcome
+Health Improvement,22403,Emergency hospital admissions due to falls in people aged 80+,Outcome
+Health Improvement,10601,Adults with a learning disability who live in stable and appropriate accommodation,Outcome
+Health Improvement,90282,Gap in the employment rate between those with a physical or mental long term health condition (aged 16 to 64) and the overall employment rate,Outcome
+Health Improvement,90283,Gap in the employment rate between those who are in receipt of long term support for a learning disability (aged 18 to 64) and the overall employment rate,Outcome
+Health Improvement,11601,Utilisation of outdoor space for exercise/health reasons,Outcome
+Health Improvement,20201,Breastfeeding initiation,Outcome
+Health Improvement,92517,Breastfeeding prevalence at 6-8 weeks after birth - current method,Outcome
+Health Improvement,20601,Reception: Prevalence of overweight (including obesity),Outcome
+Health Improvement,20602,Year 6: Prevalence of overweight (including obesity),Outcome
+Health Improvement,41401,Hip fractures in people aged 65 and over,Outcome
+Health Improvement,41402,Hip fractures in people aged 65 to 79,Outcome
+Health Improvement,41403,Hip fractures in people aged 80 and over,Outcome
+Health Improvement,93580,Baby's first feed breastmilk,Outcome
+Health Protection,2005,Spend: Health protection - Local authority role in health protection,Spend
+Health Protection,22001,Cancer screening coverage - breast cancer,Outcome
+Health Protection,22002,Cancer screening coverage - cervical cancer,Outcome
+Health Protection,91720,Cancer screening coverage: bowel cancer,Outcome
+Health Protection,92317,Abdominal Aortic Aneurysm Screening - Coverage,Outcome
+Health Protection,91323,Newborn Blood Spot Screening: Coverage,Outcome
+Health Protection,91324,Newborn Hearing Screening : Coverage,Outcome
+Health Protection,30101,Fraction of mortality attributable to particulate air pollution (old method),Outcome
+Health Protection,30301,Population vaccination coverage - Hepatitis B (1 year old),Outcome
+Health Protection,30302,Population vaccination coverage - Hepatitis B (2 years old),Outcome
+Health Protection,91367,Proportion of drug sensitive TB cases who had completed a full course of treatment by 12 months,Outcome
+Health Protection,11001,Killed and seriously injured (KSI) casualties on England's roads (historic data),Outcome
+Health Protection,11401,The rate of complaints about noise,Outcome
+Health Protection,90357,"The percentage of the population exposed to road, rail and air transport noise of 65dB(A) or more, during the daytime",Outcome
+Health Protection,90358,"The percentage of the population exposed to road, rail and air transport noise of 55 dB(A) or more during the night-time",Outcome
+Health Protection,90356,"Fuel poverty (low income, high cost methodology)",Outcome
+Health Protection,30303,Population vaccination coverage: Dtap IPV  Hib (1 year old),Outcome
+Health Protection,30304,Population vaccination coverage: Dtap  IPV  Hib (2 years old),Outcome
+Health Protection,30306,Population vaccination coverage: PCV,Outcome
+Health Protection,30307,Population vaccination coverage: Hib and  MenC booster (2 years old),Outcome
+Health Protection,90246,Population vaccination coverage - Hib / Men C booster (5 years old),Outcome
+Health Protection,30308,Population vaccination coverage: PCV booster,Outcome
+Health Protection,30309,Population vaccination coverage: MMR for one dose (2 years old),Outcome
+Health Protection,30310,Population vaccination coverage: MMR for one dose (5 years old),Outcome
+Health Protection,30311,Population vaccination coverage: MMR for two doses (5 years old),Outcome
+Health Protection,92319,Population vaccination coverage - HPV vaccination coverage for one dose (12-13 years old),Outcome
+Health Protection,30313,Population vaccination coverage: PPV,Outcome
+Health Protection,30314,Population vaccination coverage: Flu (aged 65 and over),Outcome
+Health Protection,30315,Population vaccination coverage: Flu (at risk individuals),Outcome
+Health Protection,92324,Population vaccination coverage - Shingles vaccination coverage (70 years old),Outcome
+Health Protection,91361,TB incidence (three year average),Outcome
+Health Protection,30601,NHS organisations with a board approved sustainable development management plan,Outcome
+Health Protection,92326,"Mortality rate from a range of specified communicable diseases, including influenza",Outcome
+Health Protection,90360,Excess winter deaths index,Outcome
+Health Protection,90361,Excess winter deaths index (age 85+),Outcome
+Health Protection,90641,"Excess winter deaths index (3 years, all ages)",Outcome
+Health Protection,90642,"Excess winter deaths index (3 years, age 85+)",Outcome
+Healthcare,2004,Spend: NHS health check programme,Spend
+Healthcare,2007,Spend: Public health advice,Spend
+Healthcare,2500,Access to GP services,Outcome
+Healthcare,2501,Access to NHS dental services,Outcome
+Healthcare,2503,Emergency admissions acute conditions not usually require hospital,Outcome
+Healthcare,2504,Emergency admissions for children with LRTI,Outcome
+Healthcare,2505,Health-related quality of life for carers,Outcome
+Healthcare,2506,Health-related quality of life for people with long-term conditions,Outcome
+Healthcare,2512,Patient experience of dental services,Outcome
+Healthcare,2513,Patient experience of GP out-of-hours services,Outcome
+Healthcare,2514,Patient experience of GP services,Outcome
+Healthcare,2515,Proportion of people feeling supported to manage their condition,Outcome
+Healthcare,2516,PYLL from causes amenable to healthcare - adults,Outcome
+Healthcare,2519,Tooth extractions due to decay for children admitted as inpatients,Outcome
+Healthcare,2520,"Unplanned hospitalisation for asthma, diabetes and epilepsy u19s",Outcome
+Healthcare,2521,Unplanned hospitalisation for chronic ambulatory care sensitive,Outcome
+Healthcare,93347,Estimated diabetes diagnosis rate,Outcome
+Healthcare,90834,Cancer diagnosed at early stage (experimental statistics),Outcome
+Healthcare,40401,Under 75 mortality rate from all cardiovascular diseases,Outcome
+Healthcare,40501,Under 75 mortality rate from cancer,Outcome
+Healthcare,40601,Under 75 mortality rate from liver disease,Outcome
+Healthcare,40701,Under 75 mortality rate from respiratory disease,Outcome
+Healthcare,90584,Percentage of people aged 65 and over who were still at home 91 days after discharge from hospital into reablement services,Outcome
+Healthcare,93722,Under 75 mortality rate from cardiovascular diseases considered preventable (2019 definition),Outcome
+Healthcare,93723,Under 75 mortality rate from cancer considered preventable (2019 definition),Outcome
+Healthcare,93720,Under 75 mortality rate from liver disease considered preventable (2019 definition),Outcome
+Healthcare,93724,Under 75 mortality rate from respiratory disease considered preventable (2019 definition),Outcome
+Healthcare,41201,Preventable sight loss - age related macular degeneration (AMD),Outcome
+Healthcare,41202,Preventable sight loss - glaucoma,Outcome
+Healthcare,41203,Preventable sight loss: diabetic eye disease,Outcome
+Healthcare,41204,Preventable sight loss - sight loss certifications,Outcome
+Healthcare,91195,Health related quality of life for older people,Outcome
+Healthcare,93721,Under 75 mortality rate from causes considered preventable (2019 definition),Outcome
+Highways,2168,Spend: Total Highways and transport services,Spend
+Highways,2648,Bus services running on time,Outcome
+Highways,2649,Ease of Access to Key Services (all people),Outcome
+Highways,2650,Ease of Access to Key Services (no car households),Outcome
+Highways,2651,Ease of Access to Key Services (people with disabilities),Outcome
+Highways,2652,Highway Enforcement / Obstructions,Outcome
+Highways,2653,Non-principal classified roads where maintenance should be considered,Outcome
+Highways,2654,Overall Satisfaction with Community Transport,Outcome
+Highways,2655,Overall Satisfaction with Cycle Routes & Facilities,Outcome
+Highways,2656,Overall Satisfaction with Highways & Transport (local),Outcome
+Highways,2657,Overall Satisfaction with Highways & Transport (national),Outcome
+Highways,2658,Overall Satisfaction with Local bus services,Outcome
+Highways,2659,Overall Satisfaction with Local taxi (or mini-cab) services,Outcome
+Highways,2660,Overall Satisfaction with Pavements & Footpaths,Outcome
+Highways,2661,Overall Satisfaction with Road Safety Locally,Outcome
+Highways,2662,Overall Satisfaction with Street lighting,Outcome
+Highways,2663,Overall Satisfaction with the Condition of Highways,Outcome
+Highways,2664,Overall Satisfaction with The Local Rights of Way Network,Outcome
+Highways,2665,Overall Satisfaction with Traffic Levels & Congestion,Outcome
+Highways,2666,Principal roads where maintenance should be considered,Outcome
+Highways,2669,Satisfaction with Highway Maintenance,Outcome
+Highways,2670,Satisfaction with Local Bus Services (BVPI 104),Outcome
+Highways,2671,Satisfaction with Local PT Information (BVPI103),Outcome
+Highways,2672,Satisfaction with Management of Roadworks,Outcome
+Highways,2673,Satisfaction with Road Safety Education,Outcome
+Highways,2674,Satisfaction with Road Safety Environment,Outcome
+Highways,2675,Satisfaction with specific aspects of Cycle Routes & Facilities,Outcome
+Highways,2676,Satisfaction with specific aspects of Pavements & Footpaths,Outcome
+Highways,2677,Satisfaction with specific aspects of Rights of Way Network,Outcome
+Highways,2678,Satisfaction with Traffic Management,Outcome
+Housing,2093,Spend: Total Housing services (GFRA only),Spend
+Housing,2618,(LA-owned) non-decent homes,Outcome
+Housing,2619,Average weekly rent per dwelling,Outcome
+Housing,2624,Net additional homes provided,Outcome
+Housing,2626,Number of affordable homes provided,Outcome
+Housing,2627,Rent collection rate,Outcome
+Housing,2628,Time to process benefit change of circumstance,Outcome
+Mental Health,2024,Spend: Public mental health,Spend
+Mental Health,2076,Spend: Mental health support - adults (18-64),Spend
+Mental Health,2077,Spend: Mental health support - older people (65+),Spend
+Mental Health,21001,Emergency Hospital Admissions for Intentional Self-Harm,Outcome
+Mental Health,22301,Self reported wellbeing: people with a low satisfaction score,Outcome
+Mental Health,22302,Self reported wellbeing: people with a low worthwhile score,Outcome
+Mental Health,22303,Self reported wellbeing: people with a low happiness score,Outcome
+Mental Health,22304,Self reported wellbeing: people with a high anxiety score,Outcome
+Mental Health,41001,Suicide rate,Outcome
+Mental Health,10602,Adults in contact with secondary mental health services who live in stable and appropriate accommodation,Outcome
+Mental Health,90635,"Gap in the employment rate for those who are in contact with secondary mental health services  (aged 18 to 69) and on the Care Plan Approach, and the overall employment rate",Outcome
+Mental Health,92313,Percentage of people in employment,Outcome
+Mental Health,90286,Sickness absence: the percentage of employees who had at least one day off in the previous week,Outcome
+Mental Health,90287,Sickness absence:  the percentage of working days lost due to sickness absence,Outcome
+Mental Health,92314,Statutory homelessness - Eligible homeless people not in priority need,Outcome
+Mental Health,11502,Statutory homelessness - households in temporary accommodation,Outcome
+Mental Health,90280,Social Isolation: percentage of adult social care users who have as much social contact as they would like,Outcome
+Mental Health,90638,Social Isolation: percentage of adult carers who have as much social contact as they would like,Outcome
+Planning,2152,Spend: Total Planning and development services,Spend
+Planning,2644,Processing of major planning applications in target,Outcome
+Planning,2645,Processing of minor planning applications in target,Outcome
+Planning,2646,Processing of other planning applications in target,Outcome
+Public Health,2000,Spend: Total Public Health,Spend
+Public Health,92641,Life expectancy at 75 (SPOT: NHSOD 1b),Outcome
+Public Health,93014,Percentage of physically active adults,Outcome
+Public Health,92315,Percentage of looked after children whose emotional wellbeing is a cause for concern,Outcome
+Public Health,91548,Smoking prevalence at age 15 - current smokers (WAY survey),Outcome
+Public Health,91552,Smoking prevalence at age 15 - regular smokers (WAY survey),Outcome
+Public Health,21001,Emergency Hospital Admissions for Intentional Self-Harm,Outcome
+Public Health,93077,Proportion of the population meeting the recommended '5-a-day' on a 'usual day' (adults),Outcome
+Public Health,93078,Average number of portions of fruit consumed daily (adults),Outcome
+Public Health,93079,Average number of portions of vegetables consumed daily (adults),Outcome
+Public Health,91496,Percentage who eat 5 portions or more of fruit and veg per day at age 15,Outcome
+Public Health,93088,Percentage of adults (aged 18+) classified as overweight or obese,Outcome
+Public Health,93015,Percentage of physically inactive adults,Outcome
+Public Health,92443,Smoking Prevalence in adults (18+) - current smokers (APS),Outcome
+Public Health,90244,Successful completion of drug treatment: opiate users,Outcome
+Public Health,90245,Successful completion of drug treatment: non opiate users,Outcome
+Public Health,92447,Successful completion of alcohol treatment,Outcome
+Public Health,92432,Deaths from drug misuse,Outcome
+Public Health,92544,Adults with substance misuse treatment need who successfully engage in community-based structured treatment following release from prison,Outcome
+Public Health,93347,Estimated diabetes diagnosis rate,Outcome
+Public Health,90834,Cancer diagnosed at early stage (experimental statistics),Outcome
+Public Health,22001,Cancer screening coverage - breast cancer,Outcome
+Public Health,22002,Cancer screening coverage - cervical cancer,Outcome
+Public Health,91720,Cancer screening coverage: bowel cancer,Outcome
+Public Health,92317,Abdominal Aortic Aneurysm Screening - Coverage,Outcome
+Public Health,91323,Newborn Blood Spot Screening: Coverage,Outcome
+Public Health,91324,Newborn Hearing Screening: Coverage,Outcome
+Public Health,91099,Cumulative percentage of the eligible population aged 40-74 offered an NHS Health Check,Outcome
+Public Health,91100,Cumulative percentage of the eligible population aged 40-74 offered an NHS Health Check who received an NHS Health Check,Outcome
+Public Health,91101,Cumulative percentage of the eligible population aged 40-74 who received an NHS Health check,Outcome
+Public Health,22301,Self reported wellbeing: people with a low satisfaction score,Outcome
+Public Health,22302,Self reported wellbeing: people with a low worthwhile score,Outcome
+Public Health,22303,Self reported wellbeing: people with a low happiness score,Outcome
+Public Health,22304,Self reported wellbeing: people with a high anxiety score,Outcome
+Public Health,22401,Emergency hospital admissions due to falls in people aged 65 and over,Outcome
+Public Health,22402,Emergency hospital admissions due to falls in people aged 65-79,Outcome
+Public Health,22403,Emergency hospital admissions due to falls in people aged 80+,Outcome
+Public Health,30101,Fraction of mortality attributable to particulate air pollution (old method),Outcome
+Public Health,90776,"Chlamydia detection rate per 100,000 aged 15 to 24",Outcome
+Public Health,91514,"Chlamydia detection rate / 100,000 aged 15 to 24",Outcome
+Public Health,30301,Population vaccination coverage: Hepatitis B (1 year old),Outcome
+Public Health,30302,Population vaccination coverage: Hepatitis B (2 years old),Outcome
+Public Health,91367,Proportion of drug sensitive TB cases who had completed a full course of treatment by 12 months,Outcome
+Public Health,93386,Population vaccination coverage: Flu (2 to 3 years old),Outcome
+Public Health,90791,HIV late diagnosis in people first diagnosed with HIV in the UK,Outcome
+Public Health,1210,Smokers that have successfully quit at 4 weeks,Outcome
+Public Health,1211,Smokers that have successfully quit at 4 weeks (CO validated),Outcome
+Public Health,91743,Premature births (less than 37 weeks gestation),Outcome
+Public Health,92302,Emergency hospital admissions for COPD,Outcome
+Public Health,91182,Number in treatment at specialist alcohol misuse services,Outcome
+Public Health,92455,Adults in treatment at specialist alcohol misuse services: rate per 1000 population,Outcome
+Public Health,1204,Mortality rate from chronic obstructive pulmonary disease,Outcome
+Public Health,91404,"Years of life lost due to suicide, age-standardised rate 15-74 years: per 10,000 population (3 year average)",Outcome
+Public Health,91381,Mortality from chronic liver disease,Outcome
+Public Health,92323,Incidence rate of alcohol-related cancer,Outcome
+Public Health,91917,Alcohol Related Road Traffic Accidents,Outcome
+Public Health,91872,Deprivation score (IMD 2015),Outcome
+Public Health,90759,"Gonorrhoea diagnostic rate per 100,000",Outcome
+Public Health,90741,Under 25s repeat abortions (%),Outcome
+Public Health,90784,Abortions under 10 weeks (%),Outcome
+Public Health,90801,Child mortality rate (1-17 years),Outcome
+Public Health,90729,"Genital warts diagnostic rate per 100,000",Outcome
+Public Health,90803,Children in care,Outcome
+Public Health,811,Children in care immunisations,Outcome
+Public Health,90731,Under 18s conceptions leading to abortion (%),Outcome
+Public Health,91046,"Genital herpes diagnosis rate per 100,000",Outcome
+Public Health,91049,"HIV testing coverage, gay, bisexual and other men who have sex with men (%)",Outcome
+Public Health,91048,"HIV testing coverage, women (%)",Outcome
+Public Health,91050,"HIV testing coverage, men (%)",Outcome
+Public Health,90754,Total abortion rate / 1000,Outcome
+Public Health,90820,"Children with one or more decayed,  missing or filled teeth",Outcome
+Public Health,90739,"Pelvic inflammatory disease (PID) admissions rate / 100,000",Outcome
+Public Health,90819,Family homelessness,Outcome
+Public Health,90740,"Ectopic pregnancy admissions rate / 100,000",Outcome
+Public Health,90813,Hospital admissions as a result of self-harm (10-24 years),Outcome
+Public Health,90810,Hospital admissions for asthma (under 19 years),Outcome
+Public Health,91456,"Under 18s abortions rate / 1,000",Outcome
+Public Health,90812,Hospital admissions for mental health conditions,Outcome
+Public Health,91458,"Under 18s births rate / 1,000",Outcome
+Public Health,92543,Proportion of children aged 2-2½yrs receiving ASQ-3 as part of the Healthy Child Programme or integrated review,Outcome
+Public Health,92445,Smoking prevalence in adults in routine and manual occupations (18-64) - current smokers (APS),Outcome
+Public Health,40401,Under 75 mortality rate from all cardiovascular diseases,Outcome
+Public Health,40501,Under 75 mortality rate from cancer,Outcome
+Public Health,40601,Under 75 mortality rate from liver disease,Outcome
+Public Health,40701,Under 75 mortality rate from respiratory disease,Outcome
+Public Health,41001,Suicide rate,Outcome
+Public Health,90777,Chlamydia proportion aged 15 to 24 screened,Outcome
+Public Health,90790,"HIV diagnosed prevalence rate per 1,000 aged 15 to 59",Outcome
+Public Health,91819,"GP prescribed LARC excluding injections rate / 1,000",Outcome
+Public Health,90319,Reception: Prevalence of obesity (including severe obesity),Outcome
+Public Health,93195,Year 6: Prevalence of severe obesity,Outcome
+Public Health,90808,Hospital admissions due to substance misuse (15-24 years),Outcome
+Public Health,90809,A&E attendances (0-4 years),Outcome
+Public Health,92454,Adults in treatment at specialist drug misuse services: rate per 1000 population,Outcome
+Public Health,91133,Long term claimants of Jobseeker's Allowance,Outcome
+Public Health,93572,Re-offending levels - average number of re-offences per re-offender,Outcome
+Public Health,93722,Under 75 mortality rate from cardiovascular diseases considered preventable (2019 definition),Outcome
+Public Health,93723,Under 75 mortality rate from cancer considered preventable (2019 definition),Outcome
+Public Health,93720,Under 75 mortality rate from liver disease considered preventable (2019 definition),Outcome
+Public Health,93724,Under 75 mortality rate from respiratory disease considered preventable (2019 definition),Outcome
+Public Health,93764,"Admission episodes for alcohol-related conditions (Narrow): New method.  This indicator uses a new set of attributable fractions, and so differ from that originally published.",Outcome
+Public Health,93748,Smoking attributable mortality (new method),Outcome
+Public Health,93750,Smoking attributable deaths from heart disease (new method),Outcome
+Public Health,93753,"Smoking attributable hospital admissions (new method). This indicator uses new set of attributable fractions, and so differ from that originally published.",Outcome
+Public Health,90811,Teenage mothers,Outcome
+Public Health,91380,Alcohol-specific mortality,Outcome
+Public Health,92904,Admission episodes for alcohol-specific conditions - Under 18s,Outcome
+Public Health,92906,Admission episodes for alcohol-specific conditions,Outcome
+Public Health,90362,Healthy life expectancy at birth,Outcome
+Public Health,90366,Life expectancy at birth,Outcome
+Public Health,92901,Inequality in life expectancy at birth,Outcome
+Public Health,90365,Gap in life expectancy at birth between each local authority and England as a whole,Outcome
+Public Health,90630,Children in low income families (all dependent children under 20),Outcome
+Public Health,10101,Children in low income families (under 16s),Outcome
+Public Health,90631,School readiness: percentage of children achieving a good level of development at the end of Reception,Outcome
+Public Health,90632,School Readiness: percentage of children with free school meal status achieving a good level of development at the end of Reception,Outcome
+Public Health,90633,School readiness: percentage of children achieving the expected level in the phonics screening check in Year 1,Outcome
+Public Health,90634,School readiness: percentage of children with free school meal status achieving the expected level in the phonics screening check in Year 1,Outcome
+Public Health,10301,Pupil absence,Outcome
+Public Health,10401,First time entrants to the youth justice system,Outcome
+Public Health,93203,"16 to 17 year olds not in education, employment or training (NEET) or whose activity is not known",Outcome
+Public Health,10601,Adults with a learning disability who live in stable and appropriate accommodation,Outcome
+Public Health,10602,Adults in contact with secondary mental health services who live in stable and appropriate accommodation,Outcome
+Public Health,90282,Gap in the employment rate between those with a physical or mental long term health condition (aged 16 to 64) and the overall employment rate,Outcome
+Public Health,90283,Gap in the employment rate between those who are in receipt of long term support for a learning disability (aged 18 to 64) and the overall employment rate,Outcome
+Public Health,90635,"Gap in the employment rate for those who are in contact with secondary mental health services  (aged 18 to 69) and on the Care Plan Approach, and the overall employment rate",Outcome
+Public Health,92313,Percentage of people in employment,Outcome
+Public Health,90286,Sickness absence: the percentage of employees who had at least one day off in the previous week,Outcome
+Public Health,90287,Sickness absence:  the percentage of working days lost due to sickness absence,Outcome
+Public Health,11001,Killed and seriously injured (KSI) casualties on England's roads (historic data),Outcome
+Public Health,92863,Domestic abuse related incidents and crimes,Outcome
+Public Health,11201,Violent crime - hospital admissions for violence (including sexual violence),Outcome
+Public Health,11202,"Violent crime - violence offences per 1,000 population",Outcome
+Public Health,90637,"Violent crime - sexual offences per 1,000 population",Outcome
+Public Health,93513,Re-offending levels - percentage of offenders who re-offend,Outcome
+Public Health,92456,First time offenders,Outcome
+Public Health,11401,The rate of complaints about noise,Outcome
+Public Health,90357,"The percentage of the population exposed to road, rail and air transport noise of 65dB(A) or more, during the daytime",Outcome
+Public Health,90358,"The percentage of the population exposed to road, rail and air transport noise of 55 dB(A) or more during the night-time",Outcome
+Public Health,92314,Statutory homelessness - Eligible homeless people not in priority need,Outcome
+Public Health,11502,Statutory homelessness - households in temporary accommodation,Outcome
+Public Health,11601,Utilisation of outdoor space for exercise/health reasons,Outcome
+Public Health,90356,"Fuel poverty (low income, high cost methodology)",Outcome
+Public Health,90280,Social Isolation: percentage of adult social care users who have as much social contact as they would like,Outcome
+Public Health,90638,Social Isolation: percentage of adult carers who have as much social contact as they would like,Outcome
+Public Health,20101,Low birth weight of term babies,Outcome
+Public Health,20201,Breastfeeding initiation,Outcome
+Public Health,92517,Breastfeeding prevalence at 6-8 weeks after birth - current method,Outcome
+Public Health,93085,Smoking status at time of delivery,Outcome
+Public Health,20401,"Under 18s conception rate / 1,000",Outcome
+Public Health,90639,"Under 16s conception rate / 1,000",Outcome
+Public Health,20601,Reception: Prevalence of overweight (including obesity),Outcome
+Public Health,20602,Year 6: Prevalence of overweight (including obesity),Outcome
+Public Health,90284,Hospital admissions caused by unintentional and deliberate injuries in children (aged 0 to 14 years),Outcome
+Public Health,90285,Hospital admissions caused by unintentional and deliberate injuries in young people (aged 15 to 24 years),Outcome
+Public Health,30303,Population vaccination coverage: Dtap IPV  Hib (1 year old),Outcome
+Public Health,30304,Population vaccination coverage: Dtap  IPV  Hib (2 years old),Outcome
+Public Health,30306,Population vaccination coverage: PCV,Outcome
+Public Health,30307,Population vaccination coverage: Hib and  MenC booster (2 years old),Outcome
+Public Health,90246,Population vaccination coverage - Hib / Men C booster (5 years old),Outcome
+Public Health,30308,Population vaccination coverage: PCV booster,Outcome
+Public Health,30309,Population vaccination coverage: MMR for one dose (2 years old),Outcome
+Public Health,30310,Population vaccination coverage: MMR for one dose (5 years old),Outcome
+Public Health,30311,Population vaccination coverage: MMR for two doses (5 years old),Outcome
+Public Health,92319,Population vaccination coverage - HPV vaccination coverage for one dose (12-13 years old),Outcome
+Public Health,30313,Population vaccination coverage: PPV,Outcome
+Public Health,30314,Population vaccination coverage: Flu (aged 65 and over),Outcome
+Public Health,30315,Population vaccination coverage: Flu (at risk individuals),Outcome
+Public Health,92324,Population vaccination coverage - Shingles vaccination coverage (70 years old),Outcome
+Public Health,91361,TB incidence (three year average),Outcome
+Public Health,30601,NHS organisations with a board approved sustainable development management plan,Outcome
+Public Health,92196,Infant mortality rate,Outcome
+Public Health,92441,Proportion of five year old children free from dental decay,Outcome
+Public Health,90804,Children killed and seriously injured (KSI) on England's roads,Outcome
+Public Health,92326,"Mortality rate from a range of specified communicable diseases, including influenza",Outcome
+Public Health,41201,Preventable sight loss - age related macular degeneration (AMD),Outcome
+Public Health,41202,Preventable sight loss - glaucoma,Outcome
+Public Health,41203,Preventable sight loss: diabetic eye disease,Outcome
+Public Health,41204,Preventable sight loss - sight loss certifications,Outcome
+Public Health,91195,Health related quality of life for older people,Outcome
+Public Health,41401,Hip fractures in people aged 65 and over,Outcome
+Public Health,41402,Hip fractures in people aged 65 to 79,Outcome
+Public Health,41403,Hip fractures in people aged 80 and over,Outcome
+Public Health,90360,Excess winter deaths index,Outcome
+Public Health,90361,Excess winter deaths index (age 85+),Outcome
+Public Health,90641,"Excess winter deaths index (3 years, all ages)",Outcome
+Public Health,90642,"Excess winter deaths index (3 years, age 85+)",Outcome
+Public Health,1203,Mortality rate from lung cancer,Outcome
+Public Health,1205,Lung cancer registrations,Outcome
+Public Health,1206,Oral cancer registrations,Outcome
+Public Health,93580,Baby's first feed breastmilk,Outcome
+Public Health,93721,Under 75 mortality rate from causes considered preventable (2019 definition),Outcome
+Sexual Health,2001,Spend: Sexual health services - STI testing and treatment,Spend
+Sexual Health,2002,Spend: Sexual health services - Contraception,Spend
+Sexual Health,2003,"Spend: Sexual health services - Advice, prevention and promotion",Spend
+Sexual Health,90776,"Chlamydia detection rate per 100,000 aged 15 to 24",Outcome
+Sexual Health,90791,HIV late diagnosis in people first diagnosed with HIV in the UK,Outcome
+Sexual Health,90759,"Gonorrhoea diagnostic rate per 100,000",Outcome
+Sexual Health,90741,Under 25s repeat abortions (%),Outcome
+Sexual Health,90784,Abortions under 10 weeks (%),Outcome
+Sexual Health,90729,"Genital warts diagnostic rate per 100,000",Outcome
+Sexual Health,90731,Under 18s conceptions leading to abortion (%),Outcome
+Sexual Health,91046,"Genital herpes diagnosis rate per 100,000",Outcome
+Sexual Health,91049,"HIV testing coverage, gay, bisexual and other men who have sex with men (%)",Outcome
+Sexual Health,91048,"HIV testing coverage, women (%)",Outcome
+Sexual Health,91050,"HIV testing coverage, men (%)",Outcome
+Sexual Health,90754,Total abortion rate / 1000,Outcome
+Sexual Health,90739,"Pelvic inflammatory disease (PID) admissions rate / 100,000",Outcome
+Sexual Health,90740,"Ectopic pregnancy admissions rate / 100,000",Outcome
+Sexual Health,91456,"Under 18s abortions rate / 1,000",Outcome
+Sexual Health,91458,"Under 18s births rate / 1,000",Outcome
+Sexual Health,90777,Chlamydia proportion aged 15 to 24 screened,Outcome
+Sexual Health,90790,"HIV diagnosed prevalence rate per 1,000 aged 15 to 59",Outcome
+Sexual Health,91819,"GP prescribed LARC excluding injections rate / 1,000",Outcome
+Social Care - Adults,2062,Spend: Total Adult Social Care,Spend
+Social Care - Adults,2589,Carer reported quality of life,Outcome
+Social Care - Adults,2590,Carers (very or extremely satisfied) with social services,Outcome
+Social Care - Adults,2591,Carers in discussion about the person they care for,Outcome
+Social Care - Adults,2596,Delayed transfer of care from hospital attributable adult social care,Outcome
+Social Care - Adults,2597,Delayed transfers of care from hospital,Outcome
+Social Care - Adults,2601,People who use services who feel safe,Outcome
+Social Care - Adults,2602,People who use services who receive direct payments,Outcome
+Social Care - Adults,2603,People who use services who receive self-directed support,Outcome
+Social Care - Adults,2604,"Permanent admissions to residential and nursing care homes, (18-64)",Outcome
+Social Care - Adults,2606,Service users (very+ satisfied) with their care and support,Outcome
+Social Care - Adults,2607,Proportion of service users who find it easy to find information,Outcome
+Social Care - Adults,2608,Service users having control over their daily life,Outcome
+Social Care - Adults,2609,Service users saying services make feel safe and secure,Outcome
+Social Care - Adults,2611,Social care related quality of life,Outcome
+Social Care - Adults,2612,The outcome of short-term services: sequel to service,Outcome
+Social Care - Adults,1194,"Permanent admissions to residential and nursing care homes per 100,000 aged 65+",Outcome
+Social Care - Adults,90585,Percentage of people aged 65 and over offered reablement services following discharge from hospital.,Outcome
+Social Care - Adults,90283,Gap in the employment rate between those who are in receipt of long term support for a learning disability (aged 18 to 64) and the overall employment rate,Outcome
+Social Care - Adults,90635,"Gap in the employment rate for those who are in contact with secondary mental health services  (aged 18 to 69) and on the Care Plan Approach, and the overall employment rate",Outcome
+Social Care - Child,2047,Spend: Total Children Social Care,Spend
+Social Care - Child,2553,"Assessments completed per 10,000 children",Outcome
+Social Care - Child,2554,"Care leavers in education, employment or training",Outcome
+Social Care - Child,2555,Care leavers in suitable accommodation,Outcome
+Social Care - Child,2556,"Child protection cases, timely review",Outcome
+Social Care - Child,2557,"Child protection plan subjects per 10,000 children",Outcome
+Social Care - Child,2558,"Children in need per 10,000 children",Outcome
+Social Care - Child,2559,"Children on child protection plan, second time",Outcome
+Social Care - Child,2560,Children subject to a child protection plan for two years or more,Outcome
+Social Care - Child,2562,Duration of core assessment (days - 75th percentile),Outcome
+Social Care - Child,2565,EYFSP Average Total Point Score [SPOT Child 13],Outcome
+Social Care - Child,2567,"Initial child protection conferences per 10,000 children",Outcome
+Social Care - Child,2568,"Looked after children per 10,000 children",Outcome
+Social Care - Child,2569,Looked after children persistently absent from school,Outcome
+Social Care - Child,2573,"Referrals to child social care per 10,000 children",Outcome
+Social Care - Child,2576,"Section 47 enquiries per 10,000 children",Outcome
+Tobacco Control,2017,Spend: Smoking and tobacco - Stop smoking services and interventions,Spend
+Tobacco Control,2018,Spend: Smoking and tobacco - Wider tobacco control,Spend
+Tobacco Control,92443,Smoking Prevalence in adults (18+) - current smokers (APS),Outcome
+Tobacco Control,1204,Mortality rate from chronic obstructive pulmonary disease,Outcome
+Tobacco Control,93085,Smoking status at time of delivery,Outcome
+Tobacco Control,1203,Mortality rate from lung cancer,Outcome
+Env & Reg,2143,Spend: Agriculture and fisheries services,Spend
+Highways,2191,"Spend: Airports, harbours and toll facilities",Spend
+Cultural,2196,Spend: Archives,Spend
+Social Care - Adults,2084,Spend: Assistive equipment and technology,Spend
+Planning,2153,Spend: Building control,Spend
+Planning,2160,Spend: Business Support,Spend
+Env & Reg,2123,"Spend: Cemetery, cremation and mortuary services",Spend
+Central,2208,Spend: Central services to the public: other,Spend
+Social Care - Child,2059,Spend: Children's social care: Asylum seekers,Spend
+Social Care - Child,2051,Spend: Children's social care: Children looked after,Spend
+Social Care - Child,2054,Spend: Children's social care: Family support services,Spend
+Social Care - Child,2052,Spend: Children's social care: Other children and family services,Spend
+Social Care - Child,2057,Spend: Children's social care: Safeguarding children and young people's services,Spend
+Social Care - Child,2060,Spend: Children's social care: Services for young people,Spend
+Social Care - Child,2048,Spend: Children's social care: Sure start children's centres/flying start and early years,Spend
+Social Care - Child,2055,Spend: Children's social care: Youth justice,Spend
+Child Health,2021,Spend: Childrens 0-5 services (non-prescribed),Spend
+Child Health,2020,Spend: Childrens 0-5 services (prescribed),Spend
+Env & Reg,2150,Spend: Climate change costs,Spend
+Env & Reg,2142,Spend: Coast protection,Spend
+Social Care - Adults,2087,Spend: Commissioning and service delivery,Spend
+Planning,2161,Spend: Community development,Spend
+Env & Reg,2138,Spend: Community safety (CCTV),Spend
+Env & Reg,2136,Spend: Community safety (Crime reduction),Spend
+Env & Reg,2137,Spend: Community safety (Safety services),Spend
+Central,2228,Spend: Coroners' court services,Spend
+Central,2214,Spend: Corporate and democratic core,Spend
+Cultural,2192,Spend: Culture and heritage (excluding Archives),Spend
+Education,2046,Spend: DFE s251 RO AP / PRUs,Spend
+Education,2042,Spend: DFE s251 RO Early Years,Spend
+Education,2043,Spend: DFE s251 RO Primary Schools,Spend
+Education,2045,Spend: DFE s251 RO SEN / Special schools,Spend
+Education,2044,Spend: DFE s251 RO Secondary Schools,Spend
+Env & Reg,2139,Spend: Defences against flooding,Spend
+Planning,2154,Spend: Development control,Spend
+Education,2027,Spend: Early years,Spend
+Planning,2158,Spend: Economic development,Spend
+Planning,2159,Spend: Economic research,Spend
+Central,2224,Spend: Emergency planning,Spend
+Planning,2157,Spend: Environmental initiatives,Spend
+Highways,2164,"Spend: Environmental, safety and routine maintenance",Spend
+Planning,2235,Spend: Fire and rescue services,Spend
+Public Health,2023,Spend: Health at work,Spend
+Housing,2090,Spend: Homelessness,Spend
+Housing,2113,Spend: Housing benefits administration,Spend
+Housing,2091,Spend: Housing benefits: rent allowances and rent rebates - discretionary payments,Spend
+Housing,2088,"Spend: Housing strategy, advice, advances, enabling, renewals and licensing",Spend
+Housing,2115,Spend: Housing welfare: Supporting People,Spend
+Social Care - Adults,2086,Spend: Information and early intervention,Spend
+Env & Reg,2140,Spend: Land drainage and related work (excluding levy / Special levies),Spend
+Env & Reg,2141,Spend: Land drainage and related work - Levy / Special levies,Spend
+Social Care - Adults,2071,Spend: Learning disability support - adults (18-64),Spend
+Social Care - Adults,2072,Spend: Learning disability support - older people (65+),Spend
+Cultural,2207,Spend: Library service,Spend
+Central,2217,Spend: Local tax collection: council tax discounts - locally funded,Spend
+Central,2218,Spend: Local tax collection: council tax support administration,Spend
+Central,2209,Spend: Local tax collection: other,Spend
+Public Health,2025,Spend: Miscellaneous public health services - other,Spend
+Central,2231,Spend: Non-distributed costs - costs of unused shares of IT facilities and other assets,Spend
+Central,2230,Spend: Non-distributed costs - retirement benefits,Spend
+Central,2232,Spend: Non-distributed costs - revenue expenditure on surplus assets,Spend
+Cultural,2205,Spend: Open spaces,Spend
+Housing,2114,Spend: Other council property - travellers' sites and non-HRA council property,Spend
+Central,2229,Spend: Other court services,Spend
+Education,2040,Spend: Other education and community budget,Spend
+Central,2236,Spend: Other services,Spend
+Housing,2116,Spend: Other welfare services,Spend
+Highways,2166,Spend: Parking services,Spend
+Public Health,2064,Spend: Physical support - adults (18-64),Spend
+Social Care - Adults,2065,Spend: Physical support - older people (65+),Spend
+Planning,2151,Spend: Planning policy,Spend
+Central,2234,Spend: Police services,Spend
+Education,2031,Spend: Post-16 provision,Spend
+Education,2028,Spend: Primary schools,Spend
+Highways,2190,Spend: Public transport: co-ordination,Spend
+Highways,2186,Spend: Public transport: discretionary concessionary fares,Spend
+Highways,2185,Spend: Public transport: statutory concessionary fares,Spend
+Highways,2189,Spend: Public transport: support to operators,Spend
+Cultural,2194,Spend: Recreation and sport,Spend
+Env & Reg,2148,Spend: Recycling,Spend
+Env & Reg,2134,Spend: Regulatory services: Animal and public health; infectious disease,Spend
+Env & Reg,2127,Spend: Regulatory services: Environmental protection; noise and nuisance,Spend
+Env & Reg,2126,Spend: Regulatory services: Food safety,Spend
+Env & Reg,2129,Spend: Regulatory services: Health and safety,Spend
+Env & Reg,2128,Spend: Regulatory services: Housing standards,Spend
+Env & Reg,2135,Spend: Regulatory services: Licensing - Alcohol and entertainment licensing; taxi licensing,Spend
+Env & Reg,2132,Spend: Regulatory services: Pest control,Spend
+Env & Reg,2130,Spend: Regulatory services: Port health (excluding levies),Spend
+Central,2131,Spend: Regulatory services: Port health Levies,Spend
+Env & Reg,2133,Spend: Regulatory services: Public conveniences,Spend
+Env & Reg,2124,Spend: Regulatory services: Trading standards,Spend
+Env & Reg,2125,Spend: Regulatory services: Water safety,Spend
+Education,2029,Spend: Secondary schools,Spend
+Social Care - Adults,2066,Spend: Sensory support - adults (18-64),Spend
+Social Care - Adults,2067,Spend: Sensory support - older people (65+),Spend
+Social Care - Adults,2085,Spend: Social care activities,Spend
+Social Care - Adults,2079,Spend: Social support: Asylum seeker support,Spend
+Social Care - Adults,2081,Spend: Social support: Social Isolation,Spend
+Social Care - Adults,2078,Spend: Social support: Substance misuse support,Spend
+Social Care - Adults,2080,Spend: Social support: Support for carer,Spend
+Education,2030,Spend: Special schools and alternative provision,Spend
+Env & Reg,2144,Spend: Street cleansing (not chargeable to Highways),Spend
+Highways,2178,Spend: Street lighting (including energy costs),Spend
+Highways,2163,Spend: Structural maintenance,Spend
+Social Care - Adults,2069,Spend: Support with memory and cognition - adults (18-64),Spend
+Social Care - Adults,2070,Spend: Support with memory and cognition - older people (65+),Spend
+Cultural,2206,Spend: Tourism,Spend
+Env & Reg,2147,Spend: Trade waste,Spend
+Highways,2180,Spend: Traffic management and road safety: bus lane enforcement,Spend
+Highways,2179,Spend: Traffic management and road safety: congestion charging,Spend
+Highways,2182,Spend: Traffic management and road safety: other,Spend
+Highways,2181,Spend: Traffic management and road safety: road safety education and safe routes (including school crossing patrols),Spend
+Highways,2162,"Spend: Transport planning, policy and strategy",Spend
+Env & Reg,2145,Spend: Waste collection,Spend
+Env & Reg,2146,Spend: Waste disposal,Spend
+Env & Reg,2149,Spend: Waste minimisation,Spend
+Highways,2177,Spend: Winter service,Spend
+Social Care - Child,2057,Spend: Children's social care: Safeguarding children and young people's services,Spend
+Child Health,2021,Spend: Childrens 0-5 services (non-prescribed),Spend
+Child Health,2020,Spend: Childrens 0-5 services (prescribed),Spend
+Education,2046,Spend: DFE s251 RO AP / PRUs,Spend
+Education,2042,Spend: DFE s251 RO Early Years,Spend
+Education,2043,Spend: DFE s251 RO Primary Schools,Spend
+Education,2045,Spend: DFE s251 RO SEN / Special schools,Spend
+Education,2044,Spend: DFE s251 RO Secondary Schools,Spend
+Planning,2235,Spend: Fire and rescue services,Spend
+Social Care - Adults,2071,Spend: Learning disability support - adults (18-64),Spend
+Central,2236,Spend: Other services,Spend
+Public Health,2064,Spend: Physical support - adults (18-64),Spend
+Central,2234,Spend: Police services,Spend
+Education,2131,Spend: Regulatory services: Port health Levies,Spend
+Social Care - Adults,2066,Spend: Sensory support - adults (18-64),Spend
+Social Care - Adults,2069,Spend: Support with memory and cognition - adults (18-64),Spend
+Highways,2180,Spend: Traffic management and road safety: bus lane enforcement,Spend
+Public Health,93763,"Alcohol-related mortality: New method.  This indicator uses a new set of attributable fractions, and so differ from that originally published.",Outcome
+Public Health,92527,Average number of portions of fruit consumed daily at age 15 (WAY survey),Outcome
+Public Health,92528,Average number of portions of vegetables consumed daily at age 15 (WAY survey),Outcome
+Public Health,93553,Deprivation score (IMD 2019),Outcome
+Education,2564,EYFSP attainment gap,Outcome
+Social Care - Adults,90414,Marital breakup: % of adults,Outcome
+Central,92708,Resident population,Outcome
+Tobacco Control,93750,Smoking attributable deaths from heart disease (new method),Outcome
+Tobacco Control,93748,Smoking attributable mortality (new method),Outcome
+Tobacco Control,92445,Smoking prevalence in adults in routine and manual occupations (18-64) - current smokers (APS),Outcome
+Sexual Health,90742,"Syphilis diagnostic rate per 100,000",Outcome
+Health Protection,40502,Under 75 mortality rate from cancer considered preventable (2016 definition),Outcome
+Public Health,40402,Under 75 mortality rate from cardiovascular diseases considered preventable (2016 definition),Outcome
+Public Health,40602,Under 75 mortality rate from liver disease considered preventable (2016 definition),Outcome
+Public Health,40702,Under 75 mortality rate from respiratory disease considered preventable (2016 definition),Outcome

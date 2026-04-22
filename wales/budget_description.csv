@@ -1,0 +1,121 @@
+Row_ItemName_ENG,Row_Code
+Schools expenditure (including delegated and non-delegated funding),1
+Non-school expenditure,2
+"Transport planning, policy and strategy",3
+Highways and roads,4
+Transport,5
+Personal social services - children and families,6
+Personal social services - older persons,7
+Personal social services - adults aged under 65,8
+Personal social services - other,9
+Cultural and heritage services,10
+Library services,11
+Recreation and sport,12
+Open spaces,13
+Tourism,14
+Coast protection,16
+Environmental health,17
+Street cleansing (not chargeable to highways),18
+Community safety,19
+Own agriculture and fisheries services,21
+Trading standards/Consumer protection,22
+Waste collection,23
+Waste disposal,24
+Building control,25
+Development control,26
+Planning policy,27
+Environmental initiatives,28
+Economic development,29
+Community development (county and county borough councils),30
+Magistrates' courts services,31
+Coroners' and other courts services,32
+Housing strategy,33
+Registered social landlords,34
+Housing advice,35
+Housing advances,36
+Private sector housing renewal,37
+Homelessness,38
+Housing benefit payments,39
+Housing benefit administration,40
+Other council fund housing,41
+Council tax benefit payment and related administration,42
+Local tax collection,43
+Elections,44
+Emergency planning,45
+Other central services to the public,46
+Corporate and democratic core,57
+Non-distributed costs/Unapportionable central overheads,58
+Other central costs,59
+Total service expenditure,60
+Community council precepts,61
+Payments to/from fire authorities,62
+Levies paid to the Environment Agency in respect of Local Flood Defence Committees,64
+Levies paid to the Environment Agency acting as an Internal Drainage Board,66
+Levies paid to Sea Fisheries Committees,67
+Other levies,69
+Net current expenditure,72
+Bad debt 'provision',73
+Provision for repayment of principal (before application of the commutation adjustment),74
+Commutation adjustment (enter as a negative any adjustment which reduces MRP and vice versa),75
+External interest payments excluding any premia and discounts on debt rescheduling,76
+Premia and discounts on debt rescheduling,77
+HRA 'item 8' interest payments/receipts,78
+Capital expenditure charged to revenue account,82
+"External interest on provision for credit liabilities (including 'set-aside' capital receipts), housing advances and other sources",84
+Gross revenue expenditure,86
+less specific and special grants outside AEF (excluding council tax benefit and rate relief grants),87
+Revenue expenditure,88
+less specific and special grants inside AEF,89
+Net revenue expenditure,90
+Other adjustments,91
+Appropriations to() / from(-) earmarked financial reserves (excluding schools' financial reserves),92
+Appropriations to() / from(-) unallocated financial reserves,93
+Budget requirement,94
+Budgeted net discretionary non-domestic rate relief paid for by council fund,99
+Budget requirement plus net council fund discretionary non-domestic rate relief,100
+less transitional grant,101
+less revenue support grant,103
+less redistributed non-domestic rates income,104
+Aggregate of council tax precepts,106
+less council tax reduction scheme grant,107
+Amount to be raised from council tax payers,108
+"Cemetery, cremation and mortuary services",15
+Own flood defence and land drainage services,20
+Levies to/from national parks,63
+(Non-significant) surpluses/deficits on internal trading accounts not disaggregated to services,70
+Other adjustments to net current expenditure,71
+Levies paid to the Internal Drainage Boards,65
+Leasing payments (excluding any capital financing element within PFI schemes),81
+Capital financing element within Private Finance Initiative (PFI) schemes,80
+External interest receipts on HRA balances,85
+Police services,47
+less police grant allocation under principal formula,102
+Levies to national police services,68
+Fire service emergency planning and civil defence,48
+All other fire services,49
+National parks conservation,50
+National parks planning,51
+National parks recreation and park management,52
+National parks promoting understanding and enjoyment,56
+Pensions interest cost and expected return on pensions assets,83.1
+Appropriations to() / from(-) pension reserves,83.2
+less specific and special grants,89.5
+Service strategy - adult services,6.5
+Housing council fund,39.5
+Community fire safety,47.5
+Fire-fighting and rescue operations,47.6
+Fire service emergency planning,47.7
+National parks services,50.1
+Waste,23.1
+Fire services,47.8
+Revenue expenditure funded from capital by statute (RECS),82.1
+Appropriations to() / from(-) financial instruments adjustment account,83.3
+Appropriations to() / from(-) unequal pay back pay account,83.4
+Appropriations to() / from(-) Accumulated Absences Account,83.5
+Business support,28.2
+Economic research,28.4
+In year council tax collection adjustment,90.5
+Council tax reduction scheme (including RSG element),93.5
+less council tax reduction scheme (including RSG element),103.5
+Community Infrastructure Levy,85.5
+COVID-19 - costs not included in above service lines,59.5
